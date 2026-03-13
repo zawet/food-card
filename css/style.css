@@ -1,0 +1,642 @@
+/* 基础重置 */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: #ff6b35;
+    --secondary-color: #f7c531;
+    --accent-color: #1a535c;
+    --bg-gradient: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+    --gold: #ffd700;
+    --silver: #c0c0c0;
+    --bronze: #cd7f32;
+    --card-common: linear-gradient(145deg, #e8e8e8 0%, #ffffff 100%);
+    --card-rare: linear-gradient(145deg, #fff8e0 0%, #ffec8b 100%);
+    --card-epic: linear-gradient(145deg, #ffe4d0 0%, #ffa07a 100%);
+}
+
+html, body {
+    height: 100%;
+    overflow-x: hidden;
+}
+
+body {
+    font-family: 'PingFang SC', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    background: var(--bg-gradient);
+    color: #fff;
+    min-height: 100vh;
+    padding-bottom: 20px;
+}
+
+.app {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    max-width: 480px;
+    margin: 0 auto;
+}
+
+/* 头部 */
+.header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    animation: fadeInDown 0.8s ease-out;
+    position: relative;
+}
+
+.header-center {
+    flex: 1;
+    text-align: center;
+}
+
+.nav-btn {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    padding: 10px 16px;
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 25px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    white-space: nowrap;
+}
+
+.nav-btn:hover {
+    background: rgba(255, 255, 255, 0.2);
+    transform: translateY(-2px);
+}
+
+.nav-btn.left {
+    position: absolute;
+    left: 0;
+}
+
+.nav-btn.right {
+    position: absolute;
+    right: 0;
+}
+
+.nav-icon {
+    font-size: 16px;
+}
+
+.header h1 {
+    font-size: 28px;
+    font-weight: 700;
+    background: linear-gradient(90deg, var(--secondary-color), var(--primary-color));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    margin-bottom: 8px;
+}
+
+.subtitle {
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+/* 卡片区域 */
+.card-area {
+    position: relative;
+    width: 280px;
+    height: 380px;
+    margin-bottom: 30px;
+}
+
+/* 闪光遮罩 */
+.flash-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    opacity: 0;
+    pointer-events: none;
+    z-index: 100;
+    border-radius: 20px;
+}
+
+.flash-overlay.active {
+    animation: flashAnim 0.6s ease-out forwards;
+}
+
+@keyframes flashAnim {
+    0% { opacity: 0; }
+    30% { opacity: 1; }
+    100% { opacity: 0; }
+}
+
+/* 美食卡片 */
+.food-card {
+    width: 100%;
+    height: 100%;
+    background: var(--card-common);
+    border-radius: 20px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 
+        0 20px 60px rgba(0, 0, 0, 0.4),
+        0 0 0 3px rgba(255, 255, 255, 0.1),
+        inset 0 0 60px rgba(255, 255, 255, 0.1);
+    transition: all 0.3s ease;
+    opacity: 1;
+    transform: scale(1);
+}
+
+.food-card.hidden {
+    opacity: 0;
+    transform: scale(0.8);
+}
+
+.food-card.show {
+    animation: cardShow 0.5s ease-out forwards;
+}
+
+@keyframes cardShow {
+    0% {
+        opacity: 0;
+        transform: scale(0.8);
+    }
+    50% {
+        transform: scale(1.05);
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+/* 快速操作按钮 */
+.quick-action {
+    margin-bottom: 25px;
+}
+
+.draw-btn-large {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    width: 200px;
+    padding: 18px 30px;
+    background: linear-gradient(135deg, var(--primary-color) 0%, #ff8c5a 100%);
+    border-radius: 35px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 700;
+    box-shadow: 0 8px 30px rgba(255, 107, 53, 0.5);
+    transition: all 0.3s ease;
+}
+
+.draw-btn-large:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 12px 40px rgba(255, 107, 53, 0.6);
+}
+
+.btn-icon {
+    font-size: 24px;
+}
+
+/* 稀有度样式 */
+.food-card.rarity-common {
+    background: var(--card-common);
+    border: 3px solid var(--silver);
+}
+
+.food-card.rarity-rare {
+    background: var(--card-rare);
+    border: 3px solid var(--gold);
+    box-shadow: 
+        0 20px 60px rgba(0, 0, 0, 0.4),
+        0 0 30px rgba(255, 215, 0, 0.3),
+        inset 0 0 60px rgba(255, 255, 255, 0.2);
+}
+
+.food-card.rarity-epic {
+    background: var(--card-epic);
+    border: 3px solid var(--bronze);
+    box-shadow: 
+        0 20px 60px rgba(0, 0, 0, 0.4),
+        0 0 40px rgba(205, 127, 50, 0.4),
+        inset 0 0 60px rgba(255, 255, 255, 0.2);
+}
+
+/* 卡片内容 */
+.card-content {
+    position: relative;
+    z-index: 2;
+}
+
+.food-emoji {
+    font-size: 100px;
+    margin-bottom: 20px;
+    filter: drop-shadow(0 10px 20px rgba(0, 0, 0, 0.2));
+    animation: emojiFloat 3s ease-in-out infinite;
+}
+
+@keyframes emojiFloat {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-8px); }
+}
+
+.food-name {
+    font-size: 28px;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 12px;
+}
+
+.food-category {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 15px;
+    font-weight: 500;
+}
+
+.food-description {
+    font-size: 15px;
+    color: #555;
+    line-height: 1.5;
+    margin-bottom: 15px;
+}
+
+.food-rarity {
+    font-size: 12px;
+    padding: 4px 12px;
+    border-radius: 12px;
+    display: inline-block;
+    font-weight: 600;
+}
+
+.rarity-common .food-rarity {
+    background: #c0c0c0;
+    color: #fff;
+}
+
+.rarity-rare .food-rarity {
+    background: linear-gradient(90deg, #ffd700, #ffec8b);
+    color: #8B4513;
+}
+
+.rarity-epic .food-rarity {
+    background: linear-gradient(90deg, #cd7f32, #ffa07a);
+    color: #fff;
+}
+
+/* 卡片光泽 */
+.card-shine {
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    background: linear-gradient(
+        45deg,
+        transparent 30%,
+        rgba(255, 255, 255, 0.3) 50%,
+        transparent 70%
+    );
+    transform: rotate(45deg);
+    pointer-events: none;
+    opacity: 0;
+    z-index: 1;
+}
+
+.food-card.show .card-shine {
+    animation: shineMove 2s ease-in-out infinite;
+}
+
+@keyframes shineMove {
+    0%, 100% {
+        transform: rotate(45deg) translateX(-100%);
+    }
+    50% {
+        transform: rotate(45deg) translateX(100%);
+    }
+}
+
+/* 抽卡区域 */
+.spin-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+/* 老虎机 */
+.slot-machine {
+    width: 200px;
+    height: 60px;
+    background: linear-gradient(180deg, #1a1a2e 0%, #0d0d1a 100%);
+    border-radius: 10px;
+    border: 3px solid var(--gold);
+    overflow: hidden;
+    margin-bottom: 20px;
+    box-shadow: 
+        0 0 20px rgba(255, 215, 0, 0.3),
+        inset 0 0 30px rgba(0, 0, 0, 0.5);
+    position: relative;
+}
+
+.slot-machine::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 3px;
+    background: linear-gradient(90deg, transparent, var(--gold), transparent);
+    animation: shineLine 2s linear infinite;
+}
+
+@keyframes shineLine {
+    0% { transform: translateX(-100%); }
+    100% { transform: translateX(100%); }
+}
+
+.slot-window {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.slot-reel {
+    display: flex;
+    gap: 10px;
+    font-size: 32px;
+}
+
+.slot-machine.spinning .slot-reel {
+    animation: slotSpin 0.1s linear infinite;
+}
+
+@keyframes slotSpin {
+    0% { transform: translateY(-60px); opacity: 0; }
+    50% { opacity: 1; }
+    100% { transform: translateY(0); opacity: 0; }
+}
+
+/* 抽卡按钮 */
+.draw-btn {
+    position: relative;
+    width: 180px;
+    height: 60px;
+    border: none;
+    border-radius: 30px;
+    background: linear-gradient(135deg, var(--primary-color) 0%, #ff8c5a 50%, var(--primary-color) 100%);
+    color: #fff;
+    font-size: 22px;
+    font-weight: 700;
+    cursor: pointer;
+    overflow: hidden;
+    box-shadow: 
+        0 8px 30px rgba(255, 107, 53, 0.5),
+        0 0 0 3px rgba(255, 255, 255, 0.1);
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.draw-btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 
+        0 12px 40px rgba(255, 107, 53, 0.6),
+        0 0 0 3px rgba(255, 255, 255, 0.2);
+}
+
+.draw-btn:active {
+    transform: translateY(0) scale(0.98);
+}
+
+.draw-btn:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
+.draw-btn::before {
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    background: linear-gradient(
+        45deg,
+        transparent 30%,
+        rgba(255, 255, 255, 0.3) 50%,
+        transparent 70%
+    );
+    transform: rotate(45deg);
+    animation: btnShine 3s ease-in-out infinite;
+}
+
+@keyframes btnShine {
+    0%, 100% { transform: translateX(-100%) rotate(45deg); }
+    50% { transform: translateX(100%) rotate(45deg); }
+}
+
+/* 历史记录 */
+.history-section {
+    width: 100%;
+    max-width: 320px;
+}
+
+.history-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.history-section h3 {
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.view-more {
+    font-size: 12px;
+    color: var(--secondary-color);
+    text-decoration: none;
+}
+
+.view-more:hover {
+    text-decoration: underline;
+}
+
+.history-list {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.history-item {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 12px 15px;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 12px;
+    font-size: 13px;
+    animation: fadeInUp 0.4s ease-out;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.history-emoji {
+    font-size: 28px;
+    flex-shrink: 0;
+}
+
+.history-info {
+    flex: 1;
+    min-width: 0;
+}
+
+.history-name {
+    color: #fff;
+    font-weight: 600;
+    font-size: 14px;
+    display: block;
+}
+
+.history-time {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 11px;
+}
+
+.history-rarity {
+    font-size: 10px;
+    font-weight: 600;
+    padding: 3px 8px;
+    border-radius: 10px;
+    flex-shrink: 0;
+}
+
+.history-rarity.epic {
+    background: linear-gradient(90deg, var(--bronze), #ffa07a);
+    color: #fff;
+}
+
+.history-rarity.rare {
+    background: linear-gradient(90deg, var(--gold), #ffec8b);
+    color: #8B4513;
+}
+
+.history-rarity.common {
+    background: var(--silver);
+    color: #fff;
+}
+
+/* 空状态 */
+.empty-state {
+    text-align: center;
+    padding: 30px 20px;
+}
+
+.empty-icon {
+    font-size: 40px;
+    display: block;
+    margin-bottom: 15px;
+}
+
+.empty-text {
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 14px;
+    display: block;
+    margin-bottom: 15px;
+}
+
+.empty-btn {
+    display: inline-block;
+    padding: 10px 25px;
+    background: var(--primary-color);
+    border-radius: 20px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+@keyframes fadeInDown {
+    from { opacity: 0; transform: translateY(-30px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes fadeInUp {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+/* 查看全部按钮 */
+.view-all-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 12px 24px;
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 25px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    margin-top: 10px;
+}
+
+.view-all-btn:hover {
+    background: rgba(255, 255, 255, 0.2);
+    transform: translateY(-2px);
+}
+
+.card-count {
+    background: var(--primary-color);
+    padding: 2px 8px;
+    border-radius: 10px;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+/* 响应式 */
+@media (max-width: 400px) {
+    .card-area {
+        width: 260px;
+        height: 350px;
+    }
+    .food-emoji {
+        font-size: 80px;
+    }
+    .food-name {
+        font-size: 24px;
+    }
+    .header h1 {
+        font-size: 24px;
+    }
+    .draw-btn {
+        width: 160px;
+        height: 55px;
+        font-size: 18px;
+    }
+}

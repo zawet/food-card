@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>美食抽卡</title>
+    <link rel="stylesheet" href="css/draw.css">
+</head>
+<body>
+    <!-- 背景层 -->
+    <div class="bg-layer">
+        <div class="bg-blur"></div>
+    </div>
+
+    <div class="app">
+        <h1 class="main-title">今天吃什么呢？</h1>
+
+        <main class="draw-area">
+            <!-- 3D旋转层 -->
+            <div class="rotation-layer" id="rotationLayer">
+                <div class="rotation-carousel" id="rotationCarousel"></div>
+            </div>
+
+            <div class="flash-overlay" id="flashOverlay"></div>
+
+            <div class="food-card" id="foodCard">
+                <div class="card-content">
+                    <div class="food-emoji" id="foodEmoji">🍽️</div>
+                    <div class="food-name" id="foodName">准备好抽卡了吗？</div>
+                    <div class="food-category" id="foodCategory">点击下方按钮开始</div>
+                    <div class="food-description" id="foodDescription">今天吃什么是世纪难题？<br/>让抽卡来决定！</div>
+                    <div class="food-rarity" id="foodRarity"></div>
+                    <div class="food-tags" id="foodTags"></div>
+                </div>
+                <div class="card-shine"></div>
+            </div>
+        </main>
+
+        <button class="draw-btn" id="drawBtn">
+            <span class="btn-star">✦</span>
+            <span class="btn-text">抽卡</span>
+            <span class="btn-star right">✦</span>
+        </button>
+
+        <button class="draw-btn draw-btn-secondary" id="drawBtnHot">
+            <span class="btn-star">🔥</span>
+            <span class="btn-text">网红打卡</span>
+            <span class="btn-star right">🔥</span>
+        </button>
+
+        <div class="nav-buttons">
+            <a href="history.html" class="nav-btn">
+                <span class="nav-icon">📜</span>
+                <span class="nav-text">抽卡记录</span>
+            </a>
+            <a href="all-cards.html" class="nav-btn">
+                <span class="nav-icon">📋</span>
+                <span class="nav-text">全部卡片</span>
+            </a>
+        </div>
+    </div>
+
+    <script src="js/draw.js"></script>
+</body>
+</html>

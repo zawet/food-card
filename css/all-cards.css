@@ -1,0 +1,517 @@
+/* 基础重置 */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: #ff6b35;
+    --secondary-color: #f7c531;
+    --gold: #ffd700;
+    --silver: #c0c0c0;
+    --bronze: #cd7f32;
+    --bg-gradient: linear-gradient(135deg, rgba(26, 26, 46, 0.9) 0%, rgba(22, 33, 62, 0.9) 50%, rgba(15, 52, 96, 0.9) 100%);
+    --card-common: linear-gradient(145deg, #e8e8e8 0%, #ffffff 100%);
+    --card-rare: linear-gradient(145deg, #fff8e0 0%, #ffec8b 100%);
+    --card-epic: linear-gradient(145deg, #ffe4d0 0%, #ffa07a 100%);
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    font-family: 'PingFang SC', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    background: var(--bg-gradient);
+    color: #fff;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.app {
+    max-width: 480px;
+    margin: 0 auto;
+    height: 100vh;
+    overflow-y: auto;
+}
+
+/* 头部 */
+.header {
+    padding: 20px;
+    position: sticky;
+    top: 0;
+    background: var(--bg-gradient);
+    z-index: 100;
+    backdrop-filter: blur(10px);
+}
+
+.back-btn {
+    display: inline-block;
+    color: #fff;
+    font-size: 24px;
+    text-decoration: none;
+    margin-right: 15px;
+    vertical-align: middle;
+}
+
+.header h1 {
+    font-size: 22px;
+    font-weight: 700;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+/* 标签栏 */
+.tab-bar {
+    display: flex;
+    gap: 8px;
+    margin-top: 15px;
+    overflow-x: auto;
+    padding-bottom: 5px;
+}
+
+.tab-btn {
+    flex: 1;
+    min-width: 60px;
+    padding: 10px 8px;
+    border: none;
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.1);
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 13px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    white-space: nowrap;
+}
+
+.tab-btn.active {
+    background: var(--primary-color);
+    color: #fff;
+    box-shadow: 0 4px 15px rgba(255, 107, 53, 0.4);
+}
+
+.tab-btn[data-rarity="hot"].active {
+    background: linear-gradient(135deg, #c77dff, #9d4edd);
+    box-shadow: 0 4px 15px rgba(157, 78, 221, 0.4);
+}
+
+.tab-btn:hover:not(.active) {
+    background: rgba(255, 255, 255, 0.2);
+}
+
+/* 卡片区域 */
+.cards-container {
+    padding: 15px;
+    padding-bottom: 100px;
+}
+
+.cards-section {
+    margin-bottom: 30px;
+}
+
+.section-title {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    padding: 10px 15px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.section-title.epic {
+    background: linear-gradient(90deg, rgba(205, 127, 50, 0.3), transparent);
+    border-left: 3px solid var(--bronze);
+}
+
+.section-title.rare {
+    background: linear-gradient(90deg, rgba(255, 215, 0, 0.3), transparent);
+    border-left: 3px solid var(--gold);
+}
+
+.section-title.common {
+    background: linear-gradient(90deg, rgba(192, 192, 192, 0.3), transparent);
+    border-left: 3px solid var(--silver);
+}
+
+.section-title.hot {
+    background: linear-gradient(90deg, rgba(157, 78, 221, 0.3), transparent);
+    border-left: 3px solid #c77dff;
+}
+
+.rarity-icon {
+    font-size: 18px;
+}
+
+.count {
+    margin-left: auto;
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.6);
+    font-weight: 400;
+}
+
+/* 卡片网格 */
+.cards-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+/* 卡片样式 */
+.food-card-mini {
+    aspect-ratio: 1;
+    border-radius: 12px;
+    padding: 10px 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.food-card-mini:hover {
+    transform: scale(1.05);
+}
+
+.food-card-mini.rarity-common {
+    background: var(--card-common);
+    border: 2px solid var(--silver);
+}
+
+.food-card-mini.rarity-rare {
+    background: var(--card-rare);
+    border: 2px solid var(--gold);
+    box-shadow: 0 0 15px rgba(255, 215, 0, 0.3);
+}
+
+.food-card-mini.rarity-epic {
+    background: var(--card-epic);
+    border: 2px solid var(--bronze);
+    box-shadow: 0 0 20px rgba(205, 127, 50, 0.4);
+}
+
+.card-emoji {
+    font-size: 32px;
+    margin-bottom: 5px;
+}
+
+.card-name {
+    font-size: 12px;
+    font-weight: 600;
+    color: #333;
+    line-height: 1.2;
+}
+
+.card-category {
+    font-size: 9px;
+    color: #666;
+    margin-top: 3px;
+}
+
+.card-region {
+    position: absolute;
+    top: 4px;
+    right: 4px;
+    font-size: 8px;
+    padding: 2px 5px;
+    border-radius: 8px;
+    background: rgba(0, 0, 0, 0.1);
+    color: #666;
+}
+
+/* 稀有度标签 */
+.rarity-tag {
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    font-size: 8px;
+    padding: 2px 5px;
+    border-radius: 8px;
+    font-weight: 600;
+}
+
+.rarity-common .rarity-tag {
+    background: var(--silver);
+    color: #fff;
+}
+
+.rarity-rare .rarity-tag {
+    background: linear-gradient(90deg, #ffd700, #ffec8b);
+    color: #8B4513;
+}
+
+.rarity-epic .rarity-tag {
+    background: linear-gradient(90deg, #cd7f32, #ffa07a);
+    color: #fff;
+}
+
+/* 隐藏/显示 */
+.cards-section.hidden {
+    display: none;
+}
+
+/* 底部统计栏 */
+.stats-bar {
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    max-width: 480px;
+    background: rgba(26, 26, 46, 0.95);
+    backdrop-filter: blur(10px);
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.stat-item {
+    text-align: center;
+}
+
+.stat-num {
+    display: block;
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.stat-item.epic .stat-num {
+    color: var(--bronze);
+}
+
+.stat-item.rare .stat-num {
+    color: var(--gold);
+}
+
+.stat-item.common .stat-num {
+    color: var(--silver);
+}
+
+.stat-label {
+    font-size: 11px;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+/* 动画 */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.food-card-mini {
+    animation: fadeIn 0.3s ease-out forwards;
+}
+
+/* 网红卡片标签 */
+.card-tags {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2px;
+    margin-top: 3px;
+}
+
+.card-tag {
+    font-size: 7px;
+    padding: 1px 4px;
+    border-radius: 6px;
+    background: linear-gradient(135deg, #ff6b6b, #ffa07a);
+    color: #fff;
+}
+
+/* 统计栏网红标签 */
+.stat-item.hot .stat-num {
+    background: linear-gradient(135deg, #c77dff, #9d4edd);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+/* 卡片详情弹窗 */
+.card-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s ease;
+}
+
+.card-modal.active {
+    opacity: 1;
+    visibility: visible;
+}
+
+.modal-backdrop {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    backdrop-filter: blur(5px);
+}
+
+.modal-content {
+    position: relative;
+    width: 90%;
+    max-width: 320px;
+    z-index: 1;
+    transform: scale(0.8);
+    transition: all 0.3s ease;
+}
+
+.card-modal.active .modal-content {
+    transform: scale(1);
+}
+
+.modal-close {
+    position: absolute;
+    top: -40px;
+    right: 0;
+    width: 36px;
+    height: 36px;
+    border: none;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.2);
+    color: #fff;
+    font-size: 24px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal-close:hover {
+    background: rgba(255, 255, 255, 0.3);
+}
+
+.modal-card {
+    background: linear-gradient(145deg, #ffffff 0%, #f5f5f5 100%);
+    border-radius: 24px;
+    padding: 30px 20px;
+    text-align: center;
+    position: relative;
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.4);
+}
+
+.modal-card.rarity-common {
+    background: linear-gradient(145deg, #f0f0f0 0%, #add9f2 100%);
+    border: 4px solid var(--silver);
+}
+
+.modal-card.rarity-rare {
+    background: linear-gradient(145deg, #fff8e0 0%, #ffec8b 100%);
+    border: 4px solid var(--gold);
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.4), 0 0 40px rgba(255, 215, 0, 0.4);
+}
+
+.modal-card.rarity-epic {
+    background: linear-gradient(145deg, #ffe4d0 0%, #ffa07a 100%);
+    border: 4px solid var(--bronze);
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.4), 0 0 50px rgba(205, 127, 50, 0.5);
+}
+
+.modal-rarity {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    font-size: 12px;
+    padding: 4px 12px;
+    border-radius: 12px;
+    font-weight: 600;
+}
+
+.modal-card.rarity-common .modal-rarity {
+    background: var(--silver);
+    color: #fff;
+}
+
+.modal-card.rarity-rare .modal-rarity {
+    background: linear-gradient(90deg, #ffd700, #ffec8b);
+    color: #8B4513;
+}
+
+.modal-card.rarity-epic .modal-rarity {
+    background: linear-gradient(90deg, #cd7f32, #ffa07a);
+    color: #fff;
+}
+
+.modal-emoji {
+    font-size: 80px;
+    margin-bottom: 15px;
+}
+
+.modal-name {
+    font-size: 24px;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 8px;
+}
+
+.modal-category {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 15px;
+}
+
+.modal-description {
+    font-size: 14px;
+    color: #555;
+    line-height: 1.5;
+    margin-bottom: 15px;
+    padding: 0 10px;
+}
+
+.modal-tags {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 8px;
+    margin-bottom: 20px;
+}
+
+.modal-tag {
+    font-size: 12px;
+    padding: 4px 12px;
+    border-radius: 12px;
+    background: linear-gradient(135deg, #ff6b6b, #ffa07a);
+    color: #fff;
+}
+
+.modal-stats {
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    padding-top: 15px;
+}
+
+.modal-stat {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.modal-stat-num {
+    font-size: 32px;
+    font-weight: 700;
+    color: #ff6b35;
+}
+
+.modal-stat-label {
+    font-size: 12px;
+    color: #888;
+}

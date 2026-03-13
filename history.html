@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>抽卡记录</title>
+    <link rel="stylesheet" href="css/history.css">
+</head>
+<body>
+    <div class="app">
+        <header class="header">
+            <a href="index.html" class="back-btn">←</a>
+            <h1>抽卡记录</h1>
+            <button class="export-btn" id="exportBtn">导出</button>
+        </header>
+
+        <main class="history-container" id="historyContainer">
+            <div class="loading" id="loading">加载中...</div>
+        </main>
+
+        <div class="stats-bar" id="statsBar">
+            <div class="stat-item">
+                <span class="stat-num" id="totalCount">0</span>
+                <span class="stat-label">总抽卡</span>
+            </div>
+            <div class="stat-item epic">
+                <span class="stat-num" id="epicCount">0</span>
+                <span class="stat-label">史诗</span>
+            </div>
+            <div class="stat-item rare">
+                <span class="stat-num" id="rareCount">0</span>
+                <span class="stat-label">稀有</span>
+            </div>
+            <div class="stat-item common">
+                <span class="stat-num" id="commonCount">0</span>
+                <span class="stat-label">普通</span>
+            </div>
+        </div>
+
+        <div class="action-bar">
+            <button class="action-btn clear" id="clearBtn">清空记录</button>
+            <a href="index.html" class="action-btn primary">再去抽卡</a>
+        </div>
+    </div>
+
+    <script src="js/history.js"></script>
+</body>
+</html>

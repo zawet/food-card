@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>全部美食卡片</title>
+    <link rel="stylesheet" href="css/all-cards.css">
+</head>
+<body>
+    <!-- 卡片详情弹窗 -->
+    <div class="card-modal" id="cardModal">
+        <div class="modal-backdrop" id="modalBackdrop"></div>
+        <div class="modal-content" id="modalContent">
+            <button class="modal-close" id="modalClose">×</button>
+            <div class="modal-card" id="modalCard">
+                <span class="modal-rarity" id="modalRarity"></span>
+                <div class="modal-emoji" id="modalEmoji"></div>
+                <div class="modal-name" id="modalName"></div>
+                <div class="modal-category" id="modalCategory"></div>
+                <div class="modal-description" id="modalDescription"></div>
+                <div class="modal-tags" id="modalTags"></div>
+                <div class="modal-stats">
+                    <div class="modal-stat">
+                        <span class="modal-stat-num" id="drawCount">0</span>
+                        <span class="modal-stat-label">已抽取次数</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="app">
+        <header class="header">
+            <a href="index.html" class="back-btn">←</a>
+            <h1>全部美食卡片</h1>
+            <div class="tab-bar">
+                <button class="tab-btn active" data-rarity="all">全部</button>
+                <button class="tab-btn" data-rarity="hot">网红打卡</button>
+                <button class="tab-btn" data-rarity="epic">史诗</button>
+                <button class="tab-btn" data-rarity="rare">稀有</button>
+                <button class="tab-btn" data-rarity="common">普通</button>
+            </div>
+        </header>
+
+        <main class="cards-container">
+            <div class="cards-section" id="hotSection">
+                <h2 class="section-title hot">
+                    <span class="rarity-icon">🔥</span> 网红打卡点
+                    <span class="count" id="hotCount">0</span>
+                </h2>
+                <div class="cards-grid" id="hotGrid"></div>
+            </div>
+
+            <div class="cards-section" id="epicSection">
+                <h2 class="section-title epic">
+                    <span class="rarity-icon">👑</span> 史诗美食
+                    <span class="count" id="epicCount">0</span>
+                </h2>
+                <div class="cards-grid" id="epicGrid"></div>
+            </div>
+
+            <div class="cards-section" id="rareSection">
+                <h2 class="section-title rare">
+                    <span class="rarity-icon">💎</span> 稀有美食
+                    <span class="count" id="rareCount">0</span>
+                </h2>
+                <div class="cards-grid" id="rareGrid"></div>
+            </div>
+
+            <div class="cards-section" id="commonSection">
+                <h2 class="section-title common">
+                    <span class="rarity-icon">🍽️</span> 普通美食
+                    <span class="count" id="commonCount">0</span>
+                </h2>
+                <div class="cards-grid" id="commonGrid"></div>
+            </div>
+        </main>
+
+        <div class="stats-bar">
+            <div class="stat-item">
+                <span class="stat-num" id="totalCount">0</span>
+                <span class="stat-label">总计</span>
+            </div>
+            <div class="stat-item hot">
+                <span class="stat-num" id="hotStat">0</span>
+                <span class="stat-label">网红</span>
+            </div>
+            <div class="stat-item epic">
+                <span class="stat-num" id="epicStat">0</span>
+                <span class="stat-label">史诗</span>
+            </div>
+            <div class="stat-item rare">
+                <span class="stat-num" id="rareStat">0</span>
+                <span class="stat-label">稀有</span>
+            </div>
+            <div class="stat-item common">
+                <span class="stat-num" id="commonStat">0</span>
+                <span class="stat-label">普通</span>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/all-cards.js"></script>
+</body>
+</html>

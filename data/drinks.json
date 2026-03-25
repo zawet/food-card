@@ -7,10 +7,15 @@
     "image": "https://img.icons8.com/emoji/96/tea-emoji.png",
     "description": "经典招牌，茉莉雪芽茶底搭配优质牛乳，茶香清新不腻",
     "price": 18,
-    "tags": ["招牌", "原叶鲜奶茶", "茉莉"],
+    "tags": [
+      "招牌",
+      "原叶鲜奶茶",
+      "茉莉"
+    ],
     "rarity": "epic",
     "region": "",
-    "district": ""
+    "district": "",
+    "emoji": "🌸"
   },
   {
     "id": 2,
@@ -20,10 +25,15 @@
     "image": "https://img.icons8.com/emoji/96/tea-emoji.png",
     "description": "红茶茶底浓郁，回味带淡淡奶味，细腻醇厚",
     "price": 18,
-    "tags": ["红茶", "鲜奶茶", "经典"],
+    "tags": [
+      "红茶",
+      "鲜奶茶",
+      "经典"
+    ],
     "rarity": "epic",
     "region": "",
-    "district": ""
+    "district": "",
+    "emoji": "🍂"
   },
   {
     "id": 3,
@@ -33,10 +43,15 @@
     "image": "https://img.icons8.com/emoji/96/tea-emoji.png",
     "description": "山茶乌龙茶底搭配鲜奶，山茶花香幽雅",
     "price": 17,
-    "tags": ["山茶乌龙", "花香", "鲜奶茶"],
+    "tags": [
+      "山茶乌龙",
+      "花香",
+      "鲜奶茶"
+    ],
     "rarity": "rare",
     "region": "",
-    "district": ""
+    "district": "",
+    "emoji": "🌸"
   },
   {
     "id": 4,
@@ -46,10 +61,15 @@
     "image": "https://img.icons8.com/emoji/96/tea-emoji.png",
     "description": "玫瑰普洱茶底，玫瑰花香与普洱茶香融合",
     "price": 19,
-    "tags": ["玫瑰普洱", "限定", "花香"],
+    "tags": [
+      "玫瑰普洱",
+      "限定",
+      "花香"
+    ],
     "rarity": "epic",
     "region": "",
-    "district": ""
+    "district": "",
+    "emoji": "🌹"
   },
   {
     "id": 5,
@@ -59,10 +79,15 @@
     "image": "https://img.icons8.com/emoji/96/tea-emoji.png",
     "description": "粉色奶油顶蓬松化开，无花果碎甜香满溢，颜值担当",
     "price": 20,
-    "tags": ["季节限定", "奶油顶", "水蜜桃"],
+    "tags": [
+      "季节限定",
+      "奶油顶",
+      "水蜜桃"
+    ],
     "rarity": "rare",
     "region": "",
-    "district": ""
+    "district": "",
+    "emoji": "🍑"
   },
   {
     "id": 6,
@@ -72,10 +97,15 @@
     "image": "https://img.icons8.com/emoji/96/tea-emoji.png",
     "description": "茶和咖啡的完美结合，既解腻又提神",
     "price": 20,
-    "tags": ["咖啡茶", "创新", "茶咖"],
+    "tags": [
+      "咖啡茶",
+      "创新",
+      "茶咖"
+    ],
     "rarity": "rare",
     "region": "",
-    "district": ""
+    "district": "",
+    "emoji": "☕"
   },
   {
     "id": 7,
@@ -85,10 +115,15 @@
     "image": "https://img.icons8.com/emoji/96/grapes-emoji.png",
     "description": "厚厚芝士奶盖+现剥葡萄果肉，果香与茶香完美融合",
     "price": 29,
-    "tags": ["芝士奶盖", "葡萄", "经典"],
+    "tags": [
+      "芝士奶盖",
+      "葡萄",
+      "经典"
+    ],
     "rarity": "epic",
     "region": "",
-    "district": ""
+    "district": "",
+    "emoji": "🍇"
   },
   {
     "id": 8,
@@ -98,10 +133,15 @@
     "image": "https://img.icons8.com/emoji/96/blackberry-emoji.png",
     "description": "桑葚与黑莓双重果香，清爽解腻",
     "price": 28,
-    "tags": ["莓果", "清爽", "季节限定"],
+    "tags": [
+      "莓果",
+      "清爽",
+      "季节限定"
+    ],
     "rarity": "rare",
     "region": "",
-    "district": ""
+    "district": "",
+    "emoji": "🍓"
   },
   {
     "id": 9,
@@ -111,10 +151,15 @@
     "image": "https://img.icons8.com/emoji/96/tea-emoji.png",
     "description": "咸甜交织浓郁醇糯，首次在茶饮中加入酱油，反差感火速破圈",
     "price": 32,
-    "tags": ["创新", "咸味", "2025爆款"],
+    "tags": [
+      "创新",
+      "咸味",
+      "2025爆款"
+    ],
     "rarity": "epic",
     "region": "",
-    "district": ""
+    "district": "",
+    "emoji": "🫙"
   },
   {
     "id": 10,
@@ -124,10 +169,15 @@
     "image": "https://img.icons8.com/emoji/96/tea-emoji.png",
     "description": "以千目抹茶为核心原料，抹茶控必点",
     "price": 29,
-    "tags": ["抹茶", "浓郁", "必点"],
+    "tags": [
+      "抹茶",
+      "浓郁",
+      "必点"
+    ],
     "rarity": "epic",
     "region": "",
-    "district": ""
+    "district": "",
+    "emoji": "🍵"
   },
   {
     "id": 11,
@@ -137,10 +187,15 @@
     "image": "https://img.icons8.com/emoji/96/bubble-tea.png",
     "description": "黑糖与奶香碰撞，冬天的快乐来源",
     "price": 25,
-    "tags": ["热饮", "黑糖", "牛乳"],
+    "tags": [
+      "热饮",
+      "黑糖",
+      "牛乳"
+    ],
     "rarity": "rare",
     "region": "",
-    "district": ""
+    "district": "",
+    "emoji": "🧋"
   },
   {
     "id": 12,
@@ -150,10 +205,15 @@
     "image": "https://img.icons8.com/emoji/96/strawberry-emoji.png",
     "description": "草莓+芝士奶盖，经典组合永远不过时",
     "price": 28,
-    "tags": ["芝士", "草莓", "经典"],
+    "tags": [
+      "芝士",
+      "草莓",
+      "经典"
+    ],
     "rarity": "rare",
     "region": "",
-    "district": ""
+    "district": "",
+    "emoji": "🍓"
   },
   {
     "id": 13,
@@ -163,10 +223,15 @@
     "image": "https://img.icons8.com/emoji/96/grapes-emoji.png",
     "description": "整颗鲜榨+真空锁鲜工艺，保留95%天然果香，葡萄颗粒特别多",
     "price": 28,
-    "tags": ["霸气鲜果茶", "葡萄", "经典"],
+    "tags": [
+      "霸气鲜果茶",
+      "葡萄",
+      "经典"
+    ],
     "rarity": "epic",
     "region": "",
-    "district": ""
+    "district": "",
+    "emoji": "🍇"
   },
   {
     "id": 14,
@@ -176,10 +241,15 @@
     "image": "https://img.icons8.com/emoji/96/tea-emoji.png",
     "description": "行业率先使用完美代糖D-阿洛酮糖，低GI认证GI值仅37，销量与复购率双TOP1",
     "price": 22,
-    "tags": ["低GI", "健康", "代糖"],
+    "tags": [
+      "低GI",
+      "健康",
+      "代糖"
+    ],
     "rarity": "rare",
     "region": "",
-    "district": ""
+    "district": "",
+    "emoji": "🌾"
   },
   {
     "id": 15,
@@ -189,10 +259,15 @@
     "image": "https://img.icons8.com/emoji/96/tea-emoji.png",
     "description": "咸味鲜奶茶，2025年秋冬主推产品",
     "price": 25,
-    "tags": ["咸味", "鲜奶茶", "2025"],
+    "tags": [
+      "咸味",
+      "鲜奶茶",
+      "2025"
+    ],
     "rarity": "rare",
     "region": "",
-    "district": ""
+    "district": "",
+    "emoji": "🥤"
   },
   {
     "id": 16,
@@ -202,10 +277,15 @@
     "image": "https://img.icons8.com/emoji/96/beverage.png",
     "description": "藏茶和云南熟普拼在一起，有股超特别的糯香",
     "price": 26,
-    "tags": ["黑茶", "醇厚", "复购率高"],
+    "tags": [
+      "黑茶",
+      "醇厚",
+      "复购率高"
+    ],
     "rarity": "rare",
     "region": "",
-    "district": ""
+    "district": "",
+    "emoji": "🍫"
   },
   {
     "id": 17,
@@ -215,10 +295,15 @@
     "image": "https://img.icons8.com/emoji/96/mango-emoji.png",
     "description": "芒果原浆+西柚粒黄金配比，用料扎实",
     "price": 28,
-    "tags": ["杨枝甘露", "芒果", "经典"],
+    "tags": [
+      "杨枝甘露",
+      "芒果",
+      "经典"
+    ],
     "rarity": "epic",
     "region": "",
-    "district": ""
+    "district": "",
+    "emoji": "🥭"
   },
   {
     "id": 18,
@@ -228,10 +313,15 @@
     "image": "https://img.icons8.com/emoji/96/mango-emoji.png",
     "description": "芒果原浆+西柚粒黄金配比，西柚粒+桂花冻层次感拉满",
     "price": 16,
-    "tags": ["杨枝甘露", "芒果", "椰奶"],
+    "tags": [
+      "杨枝甘露",
+      "芒果",
+      "椰奶"
+    ],
     "rarity": "rare",
     "region": "",
-    "district": ""
+    "district": "",
+    "emoji": "🥭"
   },
   {
     "id": 19,
@@ -241,10 +331,15 @@
     "image": "https://img.icons8.com/emoji/96/grapes-emoji.png",
     "description": "奶盖浓郁到摇匀才过瘾，酸甜度刚好",
     "price": 17,
-    "tags": ["芝士葡萄", "奶盖", "果茶"],
+    "tags": [
+      "芝士葡萄",
+      "奶盖",
+      "果茶"
+    ],
     "rarity": "rare",
     "region": "",
-    "district": ""
+    "district": "",
+    "emoji": "🍇"
   },
   {
     "id": 20,
@@ -254,10 +349,15 @@
     "image": "https://img.icons8.com/emoji/96/tea-emoji.png",
     "description": "古茗首款糖水产品，用料足口感好，11月上线即引发打卡热潮",
     "price": 15,
-    "tags": ["糖水", "桃胶", "炖奶"],
+    "tags": [
+      "糖水",
+      "桃胶",
+      "炖奶"
+    ],
     "rarity": "rare",
     "region": "",
-    "district": ""
+    "district": "",
+    "emoji": "🍑"
   },
   {
     "id": 21,
@@ -267,10 +367,15 @@
     "image": "https://img.icons8.com/emoji/96/tea-emoji.png",
     "description": "入口淡雅清甜，茉莉花香和奶香融合得恰到好处",
     "price": 14,
-    "tags": ["茉莉", "花香", "清爽"],
+    "tags": [
+      "茉莉",
+      "花香",
+      "清爽"
+    ],
     "rarity": "common",
     "region": "",
-    "district": ""
+    "district": "",
+    "emoji": "🌸"
   },
   {
     "id": 22,
@@ -280,10 +385,15 @@
     "image": "https://img.icons8.com/emoji/96/tea-emoji.png",
     "description": "清爽不甜腻，还可以加个奶盖解锁不一样味道",
     "price": 13,
-    "tags": ["茉莉", "清爽", "性价比"],
+    "tags": [
+      "茉莉",
+      "清爽",
+      "性价比"
+    ],
     "rarity": "common",
     "region": "",
-    "district": ""
+    "district": "",
+    "emoji": "🥛"
   },
   {
     "id": 23,
@@ -293,10 +403,15 @@
     "image": "https://img.icons8.com/emoji/96/mango-emoji.png",
     "description": "网友邪修引爆饮品圈典型，首日全国总销量近25万杯，用料扎实口感封神",
     "price": 17,
-    "tags": ["杨枝甘露", "2025爆款", "芒果"],
+    "tags": [
+      "杨枝甘露",
+      "2025爆款",
+      "芒果"
+    ],
     "rarity": "epic",
     "region": "",
-    "district": ""
+    "district": "",
+    "emoji": "🥭"
   },
   {
     "id": 24,
@@ -306,10 +421,15 @@
     "image": "https://img.icons8.com/emoji/96/bubble-tea.png",
     "description": "槟榔芋的颗粒感超明显，喝起来像在吃芋泥蛋糕",
     "price": 16,
-    "tags": ["芋泥", "浓郁", "饱腹感"],
+    "tags": [
+      "芋泥",
+      "浓郁",
+      "饱腹感"
+    ],
     "rarity": "rare",
     "region": "",
-    "district": ""
+    "district": "",
+    "emoji": "🥤"
   },
   {
     "id": 25,
@@ -319,10 +439,15 @@
     "image": "https://img.icons8.com/emoji/96/tea-emoji.png",
     "description": "竹香清冽+鲜奶醇厚，回甘带竹香",
     "price": 15,
-    "tags": ["竹香", "乌龙", "鲜奶"],
+    "tags": [
+      "竹香",
+      "乌龙",
+      "鲜奶"
+    ],
     "rarity": "rare",
     "region": "",
-    "district": ""
+    "district": "",
+    "emoji": "🍂"
   },
   {
     "id": 26,
@@ -332,10 +457,15 @@
     "image": "https://img.icons8.com/emoji/96/mango-emoji.png",
     "description": "芒果控必点，芒果香气浓郁",
     "price": 16,
-    "tags": ["芒果", "甘露", "果茶"],
+    "tags": [
+      "芒果",
+      "甘露",
+      "果茶"
+    ],
     "rarity": "common",
     "region": "",
-    "district": ""
+    "district": "",
+    "emoji": "🥭"
   },
   {
     "id": 27,
@@ -345,10 +475,15 @@
     "image": "https://img.icons8.com/emoji/96/ice-cream.png",
     "description": "冰淇淋融化后自带甜感，6元性价比之王",
     "price": 6,
-    "tags": ["圣代", "冰淇淋", "性价比"],
+    "tags": [
+      "圣代",
+      "冰淇淋",
+      "性价比"
+    ],
     "rarity": "common",
     "region": "",
-    "district": ""
+    "district": "",
+    "emoji": "🥭"
   },
   {
     "id": 28,
@@ -358,10 +493,15 @@
     "image": "https://img.icons8.com/emoji/96/ice-cream.png",
     "description": "草莓圣代，酸甜可口",
     "price": 6,
-    "tags": ["圣代", "草莓", "性价比"],
+    "tags": [
+      "圣代",
+      "草莓",
+      "性价比"
+    ],
     "rarity": "common",
     "region": "",
-    "district": ""
+    "district": "",
+    "emoji": "🍓"
   },
   {
     "id": 29,
@@ -371,10 +511,15 @@
     "image": "https://img.icons8.com/emoji/96/beverage.png",
     "description": "草莓+奶昔，珍珠Q弹吸饱茶香",
     "price": 6,
-    "tags": ["奶昔", "草莓", "摇一摇"],
+    "tags": [
+      "奶昔",
+      "草莓",
+      "摇一摇"
+    ],
     "rarity": "common",
     "region": "",
-    "district": ""
+    "district": "",
+    "emoji": "🍓"
   },
   {
     "id": 30,
@@ -384,10 +529,15 @@
     "image": "https://img.icons8.com/emoji/96/orange-emoji.png",
     "description": "鲜橙制作，清爽解腻",
     "price": 6,
-    "tags": ["鲜橙", "果茶", "清爽"],
+    "tags": [
+      "鲜橙",
+      "果茶",
+      "清爽"
+    ],
     "rarity": "common",
     "region": "",
-    "district": ""
+    "district": "",
+    "emoji": "🍊"
   },
   {
     "id": 31,
@@ -397,10 +547,15 @@
     "image": "https://img.icons8.com/emoji/96/bubble-tea.png",
     "description": "性价比超高的芋泥奶茶，学生党闭眼冲",
     "price": 7,
-    "tags": ["芋泥", "奶茶", "暖饮"],
+    "tags": [
+      "芋泥",
+      "奶茶",
+      "暖饮"
+    ],
     "rarity": "common",
     "region": "",
-    "district": ""
+    "district": "",
+    "emoji": "🫖"
   },
   {
     "id": 32,
@@ -410,10 +565,15 @@
     "image": "https://img.icons8.com/emoji/96/beverage.png",
     "description": "巧克力风味奶昔，咖啡与奶香结合",
     "price": 6,
-    "tags": ["巧克力", "奶昔", "咖啡"],
+    "tags": [
+      "巧克力",
+      "奶昔",
+      "咖啡"
+    ],
     "rarity": "common",
     "region": "",
-    "district": ""
+    "district": "",
+    "emoji": "☕"
   },
   {
     "id": 33,
@@ -423,10 +583,15 @@
     "image": "https://img.icons8.com/emoji/96/bubble-tea.png",
     "description": "血糯米+麻薯+奥利奥三重暴击，糯叽叽口感超满足",
     "price": 18,
-    "tags": ["血糯米", "麻薯", "糯叽叽"],
+    "tags": [
+      "血糯米",
+      "麻薯",
+      "糯叽叽"
+    ],
     "rarity": "rare",
     "region": "",
-    "district": ""
+    "district": "",
+    "emoji": "🍮"
   },
   {
     "id": 34,
@@ -436,10 +601,15 @@
     "image": "https://img.icons8.com/emoji/96/bubble-tea.png",
     "description": "五黑食材+麻薯，养胃又好喝",
     "price": 19,
-    "tags": ["五黑", "养生", "麻薯"],
+    "tags": [
+      "五黑",
+      "养生",
+      "麻薯"
+    ],
     "rarity": "rare",
     "region": "",
-    "district": ""
+    "district": "",
+    "emoji": "🥛"
   },
   {
     "id": 35,
@@ -449,10 +619,15 @@
     "image": "https://img.icons8.com/emoji/96/bubble-tea.png",
     "description": "血糯米+五黑食材，营养丰富",
     "price": 18,
-    "tags": ["血糯米", "五黑", "养生"],
+    "tags": [
+      "血糯米",
+      "五黑",
+      "养生"
+    ],
     "rarity": "rare",
     "region": "",
-    "district": ""
+    "district": "",
+    "emoji": "🍮"
   },
   {
     "id": 36,
@@ -462,10 +637,15 @@
     "image": "https://img.icons8.com/emoji/96/mango-emoji.png",
     "description": "芒果+西柚经典组合，清爽好喝",
     "price": 16,
-    "tags": ["杨枝甘露", "芒果", "经典"],
+    "tags": [
+      "杨枝甘露",
+      "芒果",
+      "经典"
+    ],
     "rarity": "common",
     "region": "",
-    "district": ""
+    "district": "",
+    "emoji": "🥭"
   },
   {
     "id": 37,
@@ -475,10 +655,15 @@
     "image": "https://img.icons8.com/emoji/96/lychee-emoji.png",
     "description": "湖北米酿风味出圈，茶香+米酿香+荔枝香三重暴击",
     "price": 17,
-    "tags": ["荔枝", "米酿", "2025爆款"],
+    "tags": [
+      "荔枝",
+      "米酿",
+      "2025爆款"
+    ],
     "rarity": "epic",
     "region": "",
-    "district": ""
+    "district": "",
+    "emoji": "🧊"
   },
   {
     "id": 38,
@@ -488,10 +673,15 @@
     "image": "https://img.icons8.com/emoji/96/tea-emoji.png",
     "description": "咸味茶饮，清爽解腻",
     "price": 15,
-    "tags": ["咸味", "创新", "清爽"],
+    "tags": [
+      "咸味",
+      "创新",
+      "清爽"
+    ],
     "rarity": "rare",
     "region": "",
-    "district": ""
+    "district": "",
+    "emoji": "🧊"
   },
   {
     "id": 39,
@@ -501,10 +691,15 @@
     "image": "https://img.icons8.com/emoji/96/tea-emoji.png",
     "description": "桂花香+乌龙茶香，秋日限定",
     "price": 14,
-    "tags": ["桂花", "乌龙", "季节限定"],
+    "tags": [
+      "桂花",
+      "乌龙",
+      "季节限定"
+    ],
     "rarity": "common",
     "region": "",
-    "district": ""
+    "district": "",
+    "emoji": "🌸"
   },
   {
     "id": 40,
@@ -514,10 +709,15 @@
     "image": "https://img.icons8.com/emoji/96/chocolate-bar.png",
     "description": "品牌人气巧克力饮品，2025年多次回归，热度超高",
     "price": 15,
-    "tags": ["巧克力", "经典", "人气"],
+    "tags": [
+      "巧克力",
+      "经典",
+      "人气"
+    ],
     "rarity": "rare",
     "region": "",
-    "district": ""
+    "district": "",
+    "emoji": "🍫"
   },
   {
     "id": 41,
@@ -527,10 +727,15 @@
     "image": "https://img.icons8.com/emoji/96/bubble-tea.png",
     "description": "冰淇淋+红茶，经典组合",
     "price": 14,
-    "tags": ["冰淇淋", "红茶", "经典"],
+    "tags": [
+      "冰淇淋",
+      "红茶",
+      "经典"
+    ],
     "rarity": "common",
     "region": "",
-    "district": ""
+    "district": "",
+    "emoji": "🍂"
   },
   {
     "id": 42,
@@ -540,10 +745,15 @@
     "image": "https://img.icons8.com/emoji/96/bubble-tea.png",
     "description": "珍珠Q弹，奶茶经典",
     "price": 13,
-    "tags": ["珍珠", "奶茶", "经典"],
+    "tags": [
+      "珍珠",
+      "奶茶",
+      "经典"
+    ],
     "rarity": "common",
     "region": "",
-    "district": ""
+    "district": "",
+    "emoji": "🧋"
   },
   {
     "id": 43,
@@ -553,10 +763,15 @@
     "image": "https://img.icons8.com/emoji/96/tea-emoji.png",
     "description": "咸味鲜奶茶，2025年秋冬主推",
     "price": 24,
-    "tags": ["咸味", "鲜奶茶", "2025"],
+    "tags": [
+      "咸味",
+      "鲜奶茶",
+      "2025"
+    ],
     "rarity": "rare",
     "region": "",
-    "district": ""
+    "district": "",
+    "emoji": "🧁"
   },
   {
     "id": 44,
@@ -566,10 +781,15 @@
     "image": "https://img.icons8.com/emoji/96/mango-emoji.png",
     "description": "芒果+酪酪，经典果茶",
     "price": 25,
-    "tags": ["芒果", "酪酪", "果茶"],
+    "tags": [
+      "芒果",
+      "酪酪",
+      "果茶"
+    ],
     "rarity": "rare",
     "region": "",
-    "district": ""
+    "district": "",
+    "emoji": "🥭"
   },
   {
     "id": 45,
@@ -579,10 +799,15 @@
     "image": "https://img.icons8.com/emoji/96/tea-emoji.png",
     "description": "乌龙底超香，搭配脆椰片口感丰富又高端",
     "price": 18,
-    "tags": ["乌龙", "招牌", "经典"],
+    "tags": [
+      "乌龙",
+      "招牌",
+      "经典"
+    ],
     "rarity": "epic",
     "region": "",
-    "district": ""
+    "district": "",
+    "emoji": "🥥"
   },
   {
     "id": 46,
@@ -592,10 +817,15 @@
     "image": "https://img.icons8.com/emoji/96/tea-emoji.png",
     "description": "锡兰红茶+进口牛奶+动物奶油，经典招牌",
     "price": 17,
-    "tags": ["红茶", "鲜奶", "招牌"],
+    "tags": [
+      "红茶",
+      "鲜奶",
+      "招牌"
+    ],
     "rarity": "rare",
     "region": "",
-    "district": ""
+    "district": "",
+    "emoji": "☕"
   },
   {
     "id": 47,
@@ -605,10 +835,15 @@
     "image": "https://img.icons8.com/emoji/96/bubble-tea.png",
     "description": "中山旗舰店招牌，醇香奶茶搭配Q弹珍珠",
     "price": 15,
-    "tags": ["招牌", "珍珠", "经典"],
+    "tags": [
+      "招牌",
+      "珍珠",
+      "经典"
+    ],
     "rarity": "rare",
     "region": "中山石岐",
-    "district": "大信新都汇"
+    "district": "大信新都汇",
+    "emoji": "🧋"
   },
   {
     "id": 48,
@@ -618,10 +853,15 @@
     "image": "https://img.icons8.com/emoji/96/lemon-emoji.png",
     "description": "百香果+柠檬双重果香，清爽解腻",
     "price": 14,
-    "tags": ["柠檬", "百香果", "清爽"],
+    "tags": [
+      "柠檬",
+      "百香果",
+      "清爽"
+    ],
     "rarity": "common",
     "region": "中山石岐",
-    "district": "大信新都汇"
+    "district": "大信新都汇",
+    "emoji": "🍋"
   },
   {
     "id": 49,
@@ -631,10 +871,15 @@
     "image": "https://img.icons8.com/emoji/96/watermelon-emoji.png",
     "description": "哈密瓜果肉+浓郁奶盖，甜美清爽",
     "price": 16,
-    "tags": ["奶盖", "哈密瓜", "水果茶"],
+    "tags": [
+      "奶盖",
+      "哈密瓜",
+      "水果茶"
+    ],
     "rarity": "rare",
     "region": "中山石岐",
-    "district": "大信新都汇"
+    "district": "大信新都汇",
+    "emoji": "🥛"
   },
   {
     "id": 50,
@@ -644,10 +889,15 @@
     "image": "https://img.icons8.com/emoji/96/tea-emoji.png",
     "description": "绿茶茶底搭配鲜奶，清新不腻",
     "price": 13,
-    "tags": ["奶绿", "绿茶", "清爽"],
+    "tags": [
+      "奶绿",
+      "绿茶",
+      "清爽"
+    ],
     "rarity": "common",
     "region": "中山石岐",
-    "district": "大信新都汇"
+    "district": "大信新都汇",
+    "emoji": "🌿"
   },
   {
     "id": 51,
@@ -657,646 +907,680 @@
     "image": "https://img.icons8.com/emoji/96/mango-emoji.png",
     "description": "芒果+西柚+椰奶，经典港式甜品",
     "price": 17,
-    "tags": ["杨枝甘露", "芒果", "椰奶"],
+    "tags": [
+      "杨枝甘露",
+      "芒果",
+      "椰奶"
+    ],
     "rarity": "rare",
     "region": "中山石岐",
-    "district": "大信新都汇"
+    "district": "大信新都汇",
+    "emoji": "🥭"
   },
   {
     "id": 52,
-    "brand": "浅墨Ink Coffee",
-    "brandLogo": "https://img.icons8.com/color/96/coffee-to-go.png",
-    "name": "拿铁咖啡",
-    "image": "https://img.icons8.com/emoji/96/coffee.png",
-    "description": "现萃浓缩咖啡+新鲜牛奶，经典咖啡",
-    "price": 22,
-    "tags": ["咖啡", "拿铁", "经典"],
-    "rarity": "common",
-    "region": "中山古镇",
-    "district": "古镇星光联盟"
-  },
-  {
-    "id": 53,
-    "brand": "浅墨Ink Coffee",
-    "brandLogo": "https://img.icons8.com/color/96/coffee-to-go.png",
-    "name": "Dirty脏脏咖啡",
-    "image": "https://img.icons8.com/emoji/96/coffee.png",
-    "description": "冰博客牛奶+浓缩咖啡，层次分明",
-    "price": 28,
-    "tags": ["咖啡", "Dirty", "网红"],
-    "rarity": "rare",
-    "region": "中山古镇",
-    "district": "古镇星光联盟"
-  },
-  {
-    "id": 54,
-    "brand": "浅墨Ink Coffee",
-    "brandLogo": "https://img.icons8.com/color/96/coffee-to-go.png",
-    "name": "燕麦拿铁",
-    "image": "https://img.icons8.com/emoji/96/coffee.png",
-    "description": "燕麦奶替代牛奶，植物基咖啡",
-    "price": 25,
-    "tags": ["咖啡", "燕麦", "植物基"],
-    "rarity": "rare",
-    "region": "中山古镇",
-    "district": "古镇星光联盟"
-  },
-  {
-    "id": 55,
-    "brand": "浅墨Ink Coffee",
-    "brandLogo": "https://img.icons8.com/color/96/coffee-to-go.png",
-    "name": "美式咖啡",
-    "image": "https://img.icons8.com/emoji/96/coffee.png",
-    "description": "现萃浓缩咖啡，清爽提神",
-    "price": 18,
-    "tags": ["咖啡", "美式", "清爽"],
-    "rarity": "common",
-    "region": "中山古镇",
-    "district": "古镇星光联盟"
-  },
-  {
-    "id": 56,
-    "brand": "浅墨Ink Coffee",
-    "brandLogo": "https://img.icons8.com/color/96/coffee-to-go.png",
-    "name": "澳白",
-    "image": "https://img.icons8.com/emoji/96/coffee.png",
-    "description": "小杯量浓郁咖啡，咖啡师必点",
-    "price": 23,
-    "tags": ["咖啡", "澳白", "精品"],
-    "rarity": "rare",
-    "region": "中山古镇",
-    "district": "古镇星光联盟"
-  },
-  {
-    "id": 57,
     "brand": "粮仓",
     "brandLogo": "https://img.icons8.com/color/96/bubble-tea.png",
     "name": "黑糖珍珠奶茶",
     "image": "https://img.icons8.com/emoji/96/bubble-tea.png",
     "description": "黑糖挂壁+珍珠+鲜奶，经典人气款",
     "price": 18,
-    "tags": ["黑糖", "珍珠", "人气"],
+    "tags": [
+      "黑糖",
+      "珍珠",
+      "人气"
+    ],
     "rarity": "rare",
     "region": "中山石岐",
-    "district": "石岐万象汇"
+    "district": "石岐万象汇",
+    "emoji": "🧋"
   },
   {
-    "id": 58,
+    "id": 53,
     "brand": "粮仓",
     "brandLogo": "https://img.icons8.com/color/96/bubble-tea.png",
     "name": "芝士芒果",
     "image": "https://img.icons8.com/emoji/96/mango-emoji.png",
     "description": "新鲜芒果+芝士奶盖，果香浓郁",
     "price": 20,
-    "tags": ["芒果", "芝士", "果茶"],
+    "tags": [
+      "芒果",
+      "芝士",
+      "果茶"
+    ],
     "rarity": "rare",
     "region": "中山石岐",
-    "district": "石岐万象汇"
+    "district": "石岐万象汇",
+    "emoji": "🥭"
   },
   {
-    "id": 59,
+    "id": 54,
     "brand": "粮仓",
     "brandLogo": "https://img.icons8.com/color/96/bubble-tea.png",
     "name": "蓝柑气泡水",
     "image": "https://img.icons8.com/emoji/96/beverage.png",
     "description": "蓝色渐变气泡水，清爽解暑",
     "price": 16,
-    "tags": ["气泡水", "蓝柑", "清爽"],
+    "tags": [
+      "气泡水",
+      "蓝柑",
+      "清爽"
+    ],
     "rarity": "common",
     "region": "中山石岐",
-    "district": "石岐万象汇"
+    "district": "石岐万象汇",
+    "emoji": "🍊"
   },
   {
-    "id": 60,
+    "id": 55,
     "brand": "粮仓",
     "brandLogo": "https://img.icons8.com/color/96/bubble-tea.png",
     "name": "蜜桃乌龙",
     "image": "https://img.icons8.com/emoji/96/peach-emoji.png",
     "description": "水蜜桃果肉+乌龙茶，清新甜蜜",
     "price": 17,
-    "tags": ["蜜桃", "乌龙", "果茶"],
+    "tags": [
+      "蜜桃",
+      "乌龙",
+      "果茶"
+    ],
     "rarity": "rare",
     "region": "中山石岐",
-    "district": "石岐万象汇"
+    "district": "石岐万象汇",
+    "emoji": "🍑"
   },
   {
-    "id": 61,
+    "id": 56,
     "brand": "粮仓",
     "brandLogo": "https://img.icons8.com/color/96/bubble-tea.png",
     "name": "烤奶",
     "image": "https://img.icons8.com/emoji/96/bubble-tea.png",
     "description": "烤香奶茶底，焦香浓郁",
     "price": 15,
-    "tags": ["烤奶", "奶茶", "醇厚"],
+    "tags": [
+      "烤奶",
+      "奶茶",
+      "醇厚"
+    ],
     "rarity": "common",
     "region": "中山石岐",
-    "district": "石岐万象汇"
+    "district": "石岐万象汇",
+    "emoji": "🌾"
   },
   {
-    "id": 62,
-    "brand": "柠自在·手打柠檬茶",
-    "brandLogo": "https://img.icons8.com/color/96/lemon-emoji.png",
-    "name": "招牌柠檬茶",
-    "image": "https://img.icons8.com/emoji/96/lemon-emoji.png",
-    "description": "广东香水柠檬手打，酸甜清爽",
-    "price": 15,
-    "tags": ["柠檬茶", "招牌", "手打"],
-    "rarity": "rare",
-    "region": "中山小榄",
-    "district": "小榄海港城"
-  },
-  {
-    "id": 63,
-    "brand": "柠自在·手打柠檬茶",
-    "brandLogo": "https://img.icons8.com/color/96/lemon-emoji.png",
-    "name": "香水柠檬绿",
-    "image": "https://img.icons8.com/emoji/96/lemon-emoji.png",
-    "description": "香水柠檬+绿茶，清新解腻",
-    "price": 14,
-    "tags": ["柠檬", "绿茶", "清爽"],
-    "rarity": "common",
-    "region": "中山小榄",
-    "district": "小榄海港城"
-  },
-  {
-    "id": 64,
-    "brand": "柠自在·手打柠檬茶",
-    "brandLogo": "https://img.icons8.com/color/96/lemon-emoji.png",
-    "name": "鸭屎香柠檬茶",
-    "image": "https://img.icons8.com/emoji/96/lemon-emoji.png",
-    "description": "鸭屎香茶底+柠檬，独特茶香",
-    "price": 16,
-    "tags": ["鸭屎香", "柠檬茶", "特色"],
-    "rarity": "rare",
-    "region": "中山小榄",
-    "district": "小榄海港城"
-  },
-  {
-    "id": 65,
-    "brand": "柠自在·手打柠檬茶",
-    "brandLogo": "https://img.icons8.com/color/96/lemon-emoji.png",
-    "name": "苦瓜柠檬茶",
-    "image": "https://img.icons8.com/emoji/96/lemon-emoji.png",
-    "description": "苦瓜+柠檬，清热解毒",
-    "price": 15,
-    "tags": ["苦瓜", "柠檬茶", "创新"],
-    "rarity": "rare",
-    "region": "中山小榄",
-    "district": "小榄海港城"
-  },
-  {
-    "id": 66,
+    "id": 57,
     "brand": "窦柠柠檬茶",
     "brandLogo": "https://img.icons8.com/color/96/lemon-emoji.png",
     "name": "港式柠檬茶",
     "image": "https://img.icons8.com/emoji/96/lemon-emoji.png",
     "description": "经典港式柠檬茶，酸甜适中",
     "price": 13,
-    "tags": ["柠檬茶", "港式", "经典"],
+    "tags": [
+      "柠檬茶",
+      "港式",
+      "经典"
+    ],
     "rarity": "common",
     "region": "中山南头",
-    "district": "南头商圈"
+    "district": "南头商圈",
+    "emoji": "🍋"
   },
   {
-    "id": 67,
+    "id": 58,
     "brand": "窦柠柠檬茶",
     "brandLogo": "https://img.icons8.com/color/96/lemon-emoji.png",
     "name": "特浓柠檬茶",
     "image": "https://img.icons8.com/emoji/96/lemon-emoji.png",
     "description": "柠檬用量加倍，浓郁酸爽",
     "price": 15,
-    "tags": ["柠檬茶", "特浓", "浓郁"],
+    "tags": [
+      "柠檬茶",
+      "特浓",
+      "浓郁"
+    ],
     "rarity": "rare",
     "region": "中山南头",
-    "district": "南头商圈"
+    "district": "南头商圈",
+    "emoji": "🍋"
   },
   {
-    "id": 68,
+    "id": 59,
     "brand": "窦柠柠檬茶",
     "brandLogo": "https://img.icons8.com/color/96/lemon-emoji.png",
     "name": "满杯西柚",
     "image": "https://img.icons8.com/emoji/96/grapefruit-emoji.png",
     "description": "西柚果肉满满，清爽解腻",
     "price": 14,
-    "tags": ["西柚", "果茶", "清爽"],
+    "tags": [
+      "西柚",
+      "果茶",
+      "清爽"
+    ],
     "rarity": "common",
     "region": "中山南头",
-    "district": "南头商圈"
+    "district": "南头商圈",
+    "emoji": "🧊"
   },
   {
-    "id": 69,
+    "id": 60,
     "brand": "窦柠柠檬茶",
     "brandLogo": "https://img.icons8.com/color/96/lemon-emoji.png",
     "name": "百香双响炮",
     "image": "https://img.icons8.com/emoji/96/beverage.png",
     "description": "百香果+椰果，双重口感",
     "price": 14,
-    "tags": ["百香果", "椰果", "经典"],
+    "tags": [
+      "百香果",
+      "椰果",
+      "经典"
+    ],
     "rarity": "common",
     "region": "中山南头",
-    "district": "南头商圈"
+    "district": "南头商圈",
+    "emoji": "🥥"
   },
   {
-    "id": 70,
-    "brand": "爆柠专注柠檬茶",
-    "brandLogo": "https://img.icons8.com/color/96/lemon-emoji.png",
-    "name": "招牌柠檬茶",
-    "image": "https://img.icons8.com/emoji/96/lemon-emoji.png",
-    "description": "招牌柠檬茶，门店热销第一",
-    "price": 14,
-    "tags": ["柠檬茶", "招牌", "热销"],
-    "rarity": "rare",
-    "region": "中山横栏",
-    "district": "横栏茂辉工业区"
-  },
-  {
-    "id": 71,
-    "brand": "爆柠专注柠檬茶",
-    "brandLogo": "https://img.icons8.com/color/96/lemon-emoji.png",
-    "name": "芒果柠檬茶",
-    "image": "https://img.icons8.com/emoji/96/mango-emoji.png",
-    "description": "芒果+柠檬，清甜酸爽",
-    "price": 16,
-    "tags": ["芒果", "柠檬茶", "果茶"],
-    "rarity": "rare",
-    "region": "中山横栏",
-    "district": "横栏茂辉工业区"
-  },
-  {
-    "id": 72,
-    "brand": "爆柠专注柠檬茶",
-    "brandLogo": "https://img.icons8.com/color/96/lemon-emoji.png",
-    "name": "青柠气泡",
-    "image": "https://img.icons8.com/emoji/96/beverage.png",
-    "description": "青柠+气泡水，清爽冒泡",
-    "price": 15,
-    "tags": ["青柠", "气泡", "清爽"],
-    "rarity": "common",
-    "region": "中山横栏",
-    "district": "横栏茂辉工业区"
-  },
-  {
-    "id": 73,
+    "id": 61,
     "brand": "Vinko小厨",
     "brandLogo": "https://img.icons8.com/color/96/birthday-cake.png",
     "name": "招牌蛋糕卷",
     "image": "https://img.icons8.com/emoji/96/birthday-cake.png",
     "description": "Kiri芝士联名，入口即化",
     "price": 28,
-    "tags": ["蛋糕", "芝士", "招牌"],
+    "tags": [
+      "蛋糕",
+      "芝士",
+      "招牌"
+    ],
     "rarity": "epic",
     "region": "中山东区",
-    "district": "利和广场"
+    "district": "利和广场",
+    "emoji": "🥛"
   },
   {
-    "id": 74,
+    "id": 62,
     "brand": "Vinko小厨",
     "brandLogo": "https://img.icons8.com/color/96/birthday-cake.png",
     "name": "流心芝士塔",
     "image": "https://img.icons8.com/emoji/96/birthday-cake.png",
     "description": "浓郁芝士流心，爆浆口感",
     "price": 18,
-    "tags": ["芝士", "流心", "爆浆"],
+    "tags": [
+      "芝士",
+      "流心",
+      "爆浆"
+    ],
     "rarity": "rare",
     "region": "中山东区",
-    "district": "利和广场"
+    "district": "利和广场",
+    "emoji": "🥛"
   },
   {
-    "id": 75,
+    "id": 63,
     "brand": "Vinko小厨",
     "brandLogo": "https://img.icons8.com/color/96/birthday-cake.png",
     "name": "草莓奶油包",
     "image": "https://img.icons8.com/emoji/96/birthday-cake.png",
     "description": "新鲜草莓+动物奶油，少女心必点",
     "price": 22,
-    "tags": ["草莓", "奶油", "人气"],
+    "tags": [
+      "草莓",
+      "奶油",
+      "人气"
+    ],
     "rarity": "rare",
     "region": "中山东区",
-    "district": "利和广场"
+    "district": "利和广场",
+    "emoji": "🍓"
   },
   {
-    "id": 76,
+    "id": 64,
     "brand": "Vinko小厨",
     "brandLogo": "https://img.icons8.com/color/96/birthday-cake.png",
     "name": "咸奶油盒子",
     "image": "https://img.icons8.com/emoji/96/birthday-cake.png",
     "description": "咸味奶油+蛋糕，独特风味",
     "price": 20,
-    "tags": ["咸奶油", "盒子", "创新"],
+    "tags": [
+      "咸奶油",
+      "盒子",
+      "创新"
+    ],
     "rarity": "rare",
     "region": "中山东区",
-    "district": "利和广场"
+    "district": "利和广场",
+    "emoji": "☁️"
   },
   {
-    "id": 77,
+    "id": 65,
     "brand": "Vinko小厨",
     "brandLogo": "https://img.icons8.com/color/96/birthday-cake.png",
     "name": "现烤蛋挞",
     "image": "https://img.icons8.com/emoji/96/birthday-cake.png",
     "description": "现烤酥皮蛋挞，童年回忆",
     "price": 6,
-    "tags": ["蛋挞", "现烤", "性价比"],
+    "tags": [
+      "蛋挞",
+      "现烤",
+      "性价比"
+    ],
     "rarity": "common",
     "region": "中山东区",
-    "district": "利和广场"
+    "district": "利和广场",
+    "emoji": "🥤"
   },
   {
-    "id": 78,
+    "id": 66,
     "brand": "珍珠公",
     "brandLogo": "https://img.icons8.com/color/96/bubble-tea.png",
     "name": "珍珠奶茶",
     "image": "https://img.icons8.com/emoji/96/bubble-tea.png",
     "description": "中山本地老牌珍珠奶茶，Q弹珍珠",
     "price": 12,
-    "tags": ["珍珠", "奶茶", "老字号"],
+    "tags": [
+      "珍珠",
+      "奶茶",
+      "老字号"
+    ],
     "rarity": "common",
     "region": "中山石岐",
-    "district": "大信新都汇"
+    "district": "大信新都汇",
+    "emoji": "🧋"
   },
   {
-    "id": 79,
+    "id": 67,
     "brand": "珍珠公",
     "brandLogo": "https://img.icons8.com/color/96/bubble-tea.png",
     "name": "椰果奶茶",
     "image": "https://img.icons8.com/emoji/96/bubble-tea.png",
     "description": "经典椰果奶茶，清爽口感",
     "price": 11,
-    "tags": ["椰果", "奶茶", "经典"],
+    "tags": [
+      "椰果",
+      "奶茶",
+      "经典"
+    ],
     "rarity": "common",
     "region": "中山石岐",
-    "district": "大信新都汇"
+    "district": "大信新都汇",
+    "emoji": "🥥"
   },
   {
-    "id": 80,
+    "id": 68,
     "brand": "珍珠公",
     "brandLogo": "https://img.icons8.com/color/96/bubble-tea.png",
     "name": "红豆奶茶",
     "image": "https://img.icons8.com/emoji/96/bubble-tea.png",
     "description": "绵密红豆+醇香奶茶",
     "price": 13,
-    "tags": ["红豆", "奶茶", "饱腹"],
+    "tags": [
+      "红豆",
+      "奶茶",
+      "饱腹"
+    ],
     "rarity": "common",
     "region": "中山石岐",
-    "district": "大信新都汇"
+    "district": "大信新都汇",
+    "emoji": "🧋"
   },
   {
-    "id": 81,
+    "id": 69,
     "brand": "珍珠公",
     "brandLogo": "https://img.icons8.com/color/96/bubble-tea.png",
     "name": "布丁奶茶",
     "image": "https://img.icons8.com/emoji/96/bubble-tea.png",
     "description": "嫩滑布丁+奶茶，双重享受",
     "price": 14,
-    "tags": ["布丁", "奶茶", "嫩滑"],
+    "tags": [
+      "布丁",
+      "奶茶",
+      "嫩滑"
+    ],
     "rarity": "common",
     "region": "中山石岐",
-    "district": "大信新都汇"
+    "district": "大信新都汇",
+    "emoji": "🍮"
   },
   {
-    "id": 82,
+    "id": 70,
     "brand": "808Bass咖啡",
     "brandLogo": "https://img.icons8.com/color/96/coffee-to-go.png",
     "name": "Dirty咖啡",
     "image": "https://img.icons8.com/emoji/96/coffee.png",
     "description": "冰博客牛奶+浓缩，脏脏美学",
     "price": 26,
-    "tags": ["咖啡", "Dirty", "网红"],
+    "tags": [
+      "咖啡",
+      "Dirty",
+      "网红"
+    ],
     "rarity": "rare",
     "region": "中山东区",
-    "district": "远洋大信"
+    "district": "远洋大信",
+    "emoji": "☕"
   },
   {
-    "id": 83,
+    "id": 71,
     "brand": "808Bass咖啡",
     "brandLogo": "https://img.icons8.com/color/96/coffee-to-go.png",
     "name": "手冲单品",
     "image": "https://img.icons8.com/emoji/96/coffee.png",
     "description": "单一产地手冲咖啡，品味原味",
     "price": 30,
-    "tags": ["手冲", "单品", "精品"],
+    "tags": [
+      "手冲",
+      "单品",
+      "精品"
+    ],
     "rarity": "epic",
     "region": "中山东区",
-    "district": "远洋大信"
+    "district": "远洋大信",
+    "emoji": "☕"
   },
   {
-    "id": 84,
+    "id": 72,
     "brand": "808Bass咖啡",
     "brandLogo": "https://img.icons8.com/color/96/coffee-to-go.png",
     "name": "生椰拿铁",
     "image": "https://img.icons8.com/emoji/96/coffee.png",
     "description": "生椰乳+浓缩，椰香浓郁",
     "price": 24,
-    "tags": ["咖啡", "生椰", "人气"],
+    "tags": [
+      "咖啡",
+      "生椰",
+      "人气"
+    ],
     "rarity": "rare",
     "region": "中山东区",
-    "district": "远洋大信"
+    "district": "远洋大信",
+    "emoji": "☕"
   },
   {
-    "id": 85,
+    "id": 73,
     "brand": "808Bass咖啡",
     "brandLogo": "https://img.icons8.com/color/96/coffee-to-go.png",
     "name": "摩卡奇诺",
     "image": "https://img.icons8.com/emoji/96/coffee.png",
     "description": "巧克力+咖啡+牛奶，浓郁甜美",
     "price": 25,
-    "tags": ["咖啡", "巧克力", "摩卡"],
+    "tags": [
+      "咖啡",
+      "巧克力",
+      "摩卡"
+    ],
     "rarity": "rare",
     "region": "中山东区",
-    "district": "远洋大信"
+    "district": "远洋大信",
+    "emoji": "☕"
   },
   {
-    "id": 86,
+    "id": 74,
     "brand": "霸王茶姬",
     "brandLogo": "https://img.icons8.com/color/96/tea-cup.png",
     "name": "伯牙绝弦",
     "image": "https://img.icons8.com/emoji/96/tea-emoji.png",
     "description": "经典招牌，茉莉雪芽茶底搭配优质牛乳",
     "price": 18,
-    "tags": ["招牌", "茉莉", "鲜奶茶"],
+    "tags": [
+      "招牌",
+      "茉莉",
+      "鲜奶茶"
+    ],
     "rarity": "epic",
     "region": "中山石岐",
-    "district": "兴中广场"
+    "district": "兴中广场",
+    "emoji": "🌸"
   },
   {
-    "id": 87,
+    "id": 75,
     "brand": "霸王茶姬",
     "brandLogo": "https://img.icons8.com/color/96/tea-cup.png",
     "name": "万里木兰",
     "image": "https://img.icons8.com/emoji/96/tea-emoji.png",
     "description": "红茶茶底浓郁，回味带淡淡奶味",
     "price": 18,
-    "tags": ["红茶", "鲜奶茶", "经典"],
+    "tags": [
+      "红茶",
+      "鲜奶茶",
+      "经典"
+    ],
     "rarity": "epic",
     "region": "中山石岐",
-    "district": "兴中广场"
+    "district": "兴中广场",
+    "emoji": "🍂"
   },
   {
-    "id": 88,
+    "id": 76,
     "brand": "喜茶",
     "brandLogo": "https://img.icons8.com/color/96/bubble-tea.png",
     "name": "多肉葡萄",
     "image": "https://img.icons8.com/emoji/96/grapes-emoji.png",
     "description": "芝士奶盖+现剥葡萄果肉",
     "price": 29,
-    "tags": ["芝士奶盖", "葡萄", "经典"],
+    "tags": [
+      "芝士奶盖",
+      "葡萄",
+      "经典"
+    ],
     "rarity": "epic",
     "region": "中山东区",
-    "district": "利和广场"
+    "district": "利和广场",
+    "emoji": "🍇"
   },
   {
-    "id": 89,
+    "id": 77,
     "brand": "喜茶",
     "brandLogo": "https://img.icons8.com/color/96/bubble-tea.png",
     "name": "烤黑糖波波",
     "image": "https://img.icons8.com/emoji/96/bubble-tea.png",
     "description": "烤黑糖+牛乳+波波",
     "price": 25,
-    "tags": ["黑糖", "波波", "热饮"],
+    "tags": [
+      "黑糖",
+      "波波",
+      "热饮"
+    ],
     "rarity": "rare",
     "region": "中山东区",
-    "district": "利和广场"
+    "district": "利和广场",
+    "emoji": "🧋"
   },
   {
-    "id": 90,
+    "id": 78,
     "brand": "奈雪的茶",
     "brandLogo": "https://img.icons8.com/color/96/tea-party.png",
     "name": "霸气橙子",
     "image": "https://img.icons8.com/emoji/96/orange-emoji.png",
     "description": "整颗橙子+茉莉茶，经典款",
     "price": 26,
-    "tags": ["橙子", "鲜果茶", "经典"],
+    "tags": [
+      "橙子",
+      "鲜果茶",
+      "经典"
+    ],
     "rarity": "rare",
     "region": "中山石岐",
-    "district": "石岐万象汇"
+    "district": "石岐万象汇",
+    "emoji": "🍊"
   },
   {
-    "id": 91,
+    "id": 79,
     "brand": "奈雪的茶",
     "brandLogo": "https://img.icons8.com/color/96/tea-party.png",
     "name": "霸气芝士草莓",
     "image": "https://img.icons8.com/emoji/96/strawberry-emoji.png",
     "description": "新鲜草莓+芝士，少女心首选",
     "price": 28,
-    "tags": ["草莓", "芝士", "季节限定"],
+    "tags": [
+      "草莓",
+      "芝士",
+      "季节限定"
+    ],
     "rarity": "epic",
     "region": "中山石岐",
-    "district": "石岐万象汇"
+    "district": "石岐万象汇",
+    "emoji": "🍓"
   },
   {
-    "id": 92,
+    "id": 80,
     "brand": "古茗",
     "brandLogo": "https://img.icons8.com/color/96/tea-cup.png",
     "name": "布丁奶绿",
     "image": "https://img.icons8.com/emoji/96/tea-emoji.png",
     "description": "嫩滑布丁+绿茶，清爽甜美",
     "price": 14,
-    "tags": ["布丁", "奶绿", "性价比"],
+    "tags": [
+      "布丁",
+      "奶绿",
+      "性价比"
+    ],
     "rarity": "common",
     "region": "中山南区",
-    "district": "悦来天虹"
+    "district": "悦来天虹",
+    "emoji": "🍮"
   },
   {
-    "id": 93,
+    "id": 81,
     "brand": "古茗",
     "brandLogo": "https://img.icons8.com/color/96/tea-cup.png",
     "name": "龙井香奶茶",
     "image": "https://img.icons8.com/emoji/96/bubble-tea.png",
     "description": "龙井茶底+鲜奶，清新茶香",
     "price": 15,
-    "tags": ["龙井", "鲜奶茶", "茶香"],
+    "tags": [
+      "龙井",
+      "鲜奶茶",
+      "茶香"
+    ],
     "rarity": "common",
     "region": "中山南区",
-    "district": "悦来天虹"
+    "district": "悦来天虹",
+    "emoji": "🌿"
   },
   {
-    "id": 94,
+    "id": 82,
     "brand": "蜜雪冰城",
     "brandLogo": "https://img.icons8.com/color/96/ice-cream.png",
     "name": "冰淇淋",
     "image": "https://img.icons8.com/emoji/96/ice-cream.png",
     "description": "2元冰淇淋，童年回忆",
     "price": 2,
-    "tags": ["冰淇淋", "性价比", "经典"],
+    "tags": [
+      "冰淇淋",
+      "性价比",
+      "经典"
+    ],
     "rarity": "common",
     "region": "中山西区",
-    "district": "富华道商圈"
+    "district": "富华道商圈",
+    "emoji": "🧊"
   },
   {
-    "id": 95,
+    "id": 83,
     "brand": "蜜雪冰城",
     "brandLogo": "https://img.icons8.com/color/96/ice-cream.png",
     "name": "蜜桃四季春",
     "image": "https://img.icons8.com/emoji/96/peach-emoji.png",
     "description": "蜜桃果肉+四季春茶",
     "price": 8,
-    "tags": ["蜜桃", "果茶", "清爽"],
+    "tags": [
+      "蜜桃",
+      "果茶",
+      "清爽"
+    ],
     "rarity": "common",
     "region": "中山西区",
-    "district": "富华道商圈"
+    "district": "富华道商圈",
+    "emoji": "🍑"
   },
   {
-    "id": 96,
+    "id": 84,
     "brand": "茶百道",
     "brandLogo": "https://img.icons8.com/color/96/bubble-tea.png",
     "name": "豆乳玉麒麟",
     "image": "https://img.icons8.com/emoji/96/bubble-tea.png",
     "description": "豆乳+玉麒麟茶底，浓郁豆香",
     "price": 16,
-    "tags": ["豆乳", "茶饮", "特色"],
+    "tags": [
+      "豆乳",
+      "茶饮",
+      "特色"
+    ],
     "rarity": "rare",
     "region": "中山火炬",
-    "district": "张家边商圈"
+    "district": "张家边商圈",
+    "emoji": "🥤"
   },
   {
-    "id": 97,
+    "id": 85,
     "brand": "茶百道",
     "brandLogo": "https://img.icons8.com/color/96/bubble-tea.png",
     "name": "杨枝甘露",
     "image": "https://img.icons8.com/emoji/96/mango-emoji.png",
     "description": "芒果+西柚+椰奶",
     "price": 17,
-    "tags": ["杨枝甘露", "芒果", "经典"],
+    "tags": [
+      "杨枝甘露",
+      "芒果",
+      "经典"
+    ],
     "rarity": "rare",
     "region": "中山火炬",
-    "district": "张家边商圈"
+    "district": "张家边商圈",
+    "emoji": "🥭"
   },
   {
-    "id": 98,
+    "id": 86,
     "brand": "一点点",
     "brandLogo": "https://img.icons8.com/color/96/bubble-tea.png",
     "name": "四季春茶",
     "image": "https://img.icons8.com/emoji/96/tea-emoji.png",
     "description": "四季春茶底，清新解腻",
     "price": 12,
-    "tags": ["四季春", "茶饮", "清爽"],
+    "tags": [
+      "四季春",
+      "茶饮",
+      "清爽"
+    ],
     "rarity": "common",
     "region": "中山火炬",
-    "district": "张家边商圈"
+    "district": "张家边商圈",
+    "emoji": "🧊"
   },
   {
-    "id": 99,
+    "id": 87,
     "brand": "一点点",
     "brandLogo": "https://img.icons8.com/color/96/bubble-tea.png",
     "name": "养乐多绿",
     "image": "https://img.icons8.com/emoji/96/beverage.png",
     "description": "养乐多+绿茶，酸甜解腻",
     "price": 14,
-    "tags": ["养乐多", "绿茶", "人气"],
+    "tags": [
+      "养乐多",
+      "绿茶",
+      "人气"
+    ],
     "rarity": "common",
     "region": "中山火炬",
-    "district": "张家边商圈"
+    "district": "张家边商圈",
+    "emoji": "🌿"
   },
   {
-    "id": 100,
+    "id": 88,
     "brand": "沪上阿姨",
     "brandLogo": "https://img.icons8.com/color/96/bubble-tea.png",
     "name": "手剥葡萄",
     "image": "https://img.icons8.com/emoji/96/grapes-emoji.png",
     "description": "手剥葡萄果肉，颗颗爆汁",
     "price": 18,
-    "tags": ["葡萄", "鲜果茶", "手工"],
+    "tags": [
+      "葡萄",
+      "鲜果茶",
+      "手工"
+    ],
     "rarity": "rare",
     "region": "中山南区",
-    "district": "悦来天虹"
+    "district": "悦来天虹",
+    "emoji": "🍇"
   }
 ]

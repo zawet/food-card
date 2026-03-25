@@ -33,6 +33,7 @@ body {
     width: 100%;
     height: 100%;
     z-index: -1;
+    overflow: hidden;
 }
 
 .bg-blur {
@@ -41,10 +42,80 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    background: url('../image/bg.jpeg') center/cover no-repeat;
-    filter: blur(20px) brightness(0.6);
-    transform: scale(1.1);
+    background: linear-gradient(
+        160deg,
+        #2d1206 0%,
+        #4a1a08 18%,
+        #6b2a0e 36%,
+        #3d1a0a 54%,
+        #1e0e05 72%,
+        #120a04 100%
+    );
 }
+
+/* 背景光晕 */
+.bg-blur::before {
+    content: '';
+    position: absolute;
+    top: -20%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80%;
+    height: 60%;
+    background: radial-gradient(ellipse, rgba(255, 100, 30, 0.18) 0%, transparent 70%);
+    pointer-events: none;
+}
+
+.bg-blur::after {
+    content: '';
+    position: absolute;
+    bottom: -10%;
+    left: 20%;
+    width: 60%;
+    height: 50%;
+    background: radial-gradient(ellipse, rgba(200, 50, 10, 0.14) 0%, transparent 70%);
+    pointer-events: none;
+}
+
+/* 漂浮食物 emoji 装饰层 */
+.bg-food-deco {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    user-select: none;
+}
+
+.bg-food-deco .deco-item {
+    position: absolute;
+    font-size: 28px;
+    opacity: 0;
+    animation: decoFloat linear infinite;
+    filter: blur(0.5px);
+}
+
+@keyframes decoFloat {
+    0%   { transform: translateY(110vh) rotate(0deg);   opacity: 0; }
+    5%   { opacity: 0.18; }
+    90%  { opacity: 0.12; }
+    100% { transform: translateY(-15vh) rotate(360deg); opacity: 0; }
+}
+
+/* 各个 emoji 的水平位置与动画参数 */
+.deco-item:nth-child(1)  { left: 6%;  font-size: 24px; animation-duration: 18s; animation-delay: 0s; }
+.deco-item:nth-child(2)  { left: 14%; font-size: 32px; animation-duration: 22s; animation-delay: -5s; }
+.deco-item:nth-child(3)  { left: 23%; font-size: 20px; animation-duration: 16s; animation-delay: -9s; }
+.deco-item:nth-child(4)  { left: 33%; font-size: 28px; animation-duration: 25s; animation-delay: -2s; }
+.deco-item:nth-child(5)  { left: 42%; font-size: 22px; animation-duration: 19s; animation-delay: -13s; }
+.deco-item:nth-child(6)  { left: 51%; font-size: 30px; animation-duration: 21s; animation-delay: -7s; }
+.deco-item:nth-child(7)  { left: 61%; font-size: 26px; animation-duration: 17s; animation-delay: -3s; }
+.deco-item:nth-child(8)  { left: 71%; font-size: 24px; animation-duration: 23s; animation-delay: -11s; }
+.deco-item:nth-child(9)  { left: 80%; font-size: 30px; animation-duration: 20s; animation-delay: -6s; }
+.deco-item:nth-child(10) { left: 89%; font-size: 22px; animation-duration: 24s; animation-delay: -15s; }
+.deco-item:nth-child(11) { left: 10%; font-size: 26px; animation-duration: 27s; animation-delay: -18s; }
+.deco-item:nth-child(12) { left: 55%; font-size: 20px; animation-duration: 15s; animation-delay: -8s; }
 
 /* 应用容器 */
 .app {
@@ -61,12 +132,74 @@ body {
 .main-title {
     font-size: 32px;
     font-weight: 800;
-    text-shadow: 0 2px 15px rgba(0, 0, 0, 0.6);
-    margin-bottom: 25px;
-    background: linear-gradient(90deg, #fff, var(--secondary-color));
+    text-shadow: 0 2px 20px rgba(180, 60, 10, 0.5), 0 0 40px rgba(255, 120, 40, 0.2);
+    margin-bottom: 10px;
+    background: linear-gradient(90deg, #ffe0b2, #ffab40, #ff6f20);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
+}
+
+/* 滑动提示 */
+.swipe-hint {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 8px;
+    opacity: 0.7;
+    animation: swipeHintPulse 2s ease-in-out infinite;
+}
+
+.swipe-arrow {
+    font-size: 14px;
+    color: var(--secondary-color);
+}
+
+.swipe-text {
+    font-size: 13px;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+@keyframes swipeHintPulse {
+    0%, 100% { opacity: 0.5; }
+    50% { opacity: 1; }
+}
+
+/* 页面指示器 */
+.page-indicator {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 15px;
+}
+
+.page-indicator .dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.3);
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.page-indicator .dot.active {
+    background: var(--secondary-color);
+    transform: scale(1.3);
+    box-shadow: 0 0 10px var(--secondary-color);
+}
+
+.page-indicator .dot[data-type="food"].active {
+    background: #ff6b35;
+    box-shadow: 0 0 10px #ff6b35;
+}
+
+.page-indicator .dot[data-type="drink"].active {
+    background: #4ecdc4;
+    box-shadow: 0 0 10px #4ecdc4;
+}
+
+.page-indicator .dot[data-type="hot"].active {
+    background: #9d4edd;
+    box-shadow: 0 0 10px #9d4edd;
 }
 
 /* 抽卡区域 - 占页面70% */
@@ -281,6 +414,32 @@ body {
     100% { opacity: 1; transform: scale(1); }
 }
 
+/* ── 翻牌切换动画 ── */
+/* 左滑：当前卡片向左飞出翻滚，新卡片从右侧飞滚入 */
+@keyframes flipOutLeft {
+    0%   { transform: perspective(900px) translateX(0)      rotateY(0deg)   scale(1);    opacity: 1; }
+    100% { transform: perspective(900px) translateX(-130%)  rotateY(-80deg) scale(0.6);  opacity: 0; }
+}
+@keyframes flipInRight {
+    0%   { transform: perspective(900px) translateX(130%)   rotateY(80deg)  scale(0.6);  opacity: 0; }
+    100% { transform: perspective(900px) translateX(0)      rotateY(0deg)   scale(1);    opacity: 1; }
+}
+
+/* 右滑：当前卡片向右飞出翻滚，新卡片从左侧飞滚入 */
+@keyframes flipOutRight {
+    0%   { transform: perspective(900px) translateX(0)     rotateY(0deg)   scale(1);    opacity: 1; }
+    100% { transform: perspective(900px) translateX(130%)  rotateY(80deg)  scale(0.6);  opacity: 0; }
+}
+@keyframes flipInLeft {
+    0%   { transform: perspective(900px) translateX(-130%) rotateY(-80deg) scale(0.6);  opacity: 0; }
+    100% { transform: perspective(900px) translateX(0)     rotateY(0deg)   scale(1);    opacity: 1; }
+}
+
+.food-card.flip-out-left  { animation: flipOutLeft  0.28s cubic-bezier(0.4, 0, 0.8, 0.6) forwards; }
+.food-card.flip-out-right { animation: flipOutRight 0.28s cubic-bezier(0.4, 0, 0.8, 0.6) forwards; }
+.food-card.flip-in-left   { animation: flipInLeft   0.32s cubic-bezier(0.1, 0.8, 0.4, 1) forwards; }
+.food-card.flip-in-right  { animation: flipInRight  0.32s cubic-bezier(0.1, 0.8, 0.4, 1) forwards; }
+
 /* 稀有度样式 */
 .food-card.rarity-common {
     background: linear-gradient(145deg, #f0f0f0 0%, #add9f2 100%);
@@ -315,12 +474,117 @@ body {
     height: 100%;
 }
 
-.food-emoji {
-    font-size: 160px;
-    margin-bottom: 20px;
+/* 食物图片区域 */
+.food-image-wrap {
+    position: relative;
+    width: 140px;
+    height: 140px;
+    margin-bottom: 16px;
+    flex-shrink: 0;
+}
+
+.food-image {
+    width: 140px;
+    height: 140px;
+    object-fit: contain;
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.25);
+    padding: 10px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.18);
+    animation: emojiFloat 3s ease-in-out infinite;
+    display: block;
+}
+
+.food-image-wrap.no-image .food-image {
+    display: none;
+}
+
+/* emoji 角标：右下角 */
+.food-emoji-badge {
+    position: absolute;
+    bottom: -6px;
+    right: -6px;
+    font-size: 36px;
+    line-height: 1;
+    background: rgba(255, 255, 255, 0.85);
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(4px);
+    border: 2px solid rgba(255,255,255,0.6);
+}
+
+/* 无图时 emoji 回到原来居中大图模式 */
+.food-image-wrap.no-image {
+    position: relative;
+    width: 120px;
+    height: 120px;
+    margin-bottom: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.food-image-wrap.no-image .food-emoji-badge {
+    position: static;
+    width: auto;
+    height: auto;
+    font-size: 100px;
+    background: none;
+    border-radius: 0;
+    box-shadow: none;
+    border: none;
+    backdrop-filter: none;
     filter: drop-shadow(0 10px 20px rgba(0, 0, 0, 0.2));
     animation: emojiFloat 3s ease-in-out infinite;
-    line-height: 1;
+}
+
+/* 品牌 Logo 角标：绝对定位悬浮在 emoji 右下角 */
+.food-brand-logo {
+    position: absolute;
+    bottom: -6px;
+    right: -6px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.92);
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+    border: 2px solid rgba(255, 255, 255, 0.6);
+    backdrop-filter: blur(4px);
+    display: none; /* 默认隐藏，JS 控制 */
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    padding: 5px;
+}
+
+.food-brand-logo img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    border-radius: 50%;
+}
+
+/* Logo 加载失败时的文字 fallback */
+.brand-logo-fallback {
+    font-size: 11px;
+    font-weight: 700;
+    color: #555;
+    letter-spacing: 0.5px;
+    align-items: center;
+    justify-content: center;
+}
+
+/* 商圈名 */
+.food-district {
+    font-size: 14px;
+    color: #888;
+    margin-bottom: 10px;
+    font-weight: 500;
 }
 
 @keyframes emojiFloat {
@@ -603,10 +867,26 @@ body {
         padding: 20px;
     }
     
-    .food-emoji {
-        font-size: 120px;
+    .food-image-wrap {
+        width: 110px;
+        height: 110px;
     }
-    
+
+    .food-image {
+        width: 110px;
+        height: 110px;
+    }
+
+    .food-emoji-badge {
+        font-size: 28px;
+        width: 42px;
+        height: 42px;
+    }
+
+    .food-image-wrap.no-image .food-emoji-badge {
+        font-size: 80px;
+    }
+
     .food-name {
         font-size: 28px;
     }

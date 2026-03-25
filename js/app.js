@@ -1,3 +1,5 @@
+import AppConfig from '../config.js';
+
 // 美食抽卡应用
 class FoodGacha {
     constructor() {
@@ -32,7 +34,13 @@ class FoodGacha {
     async loadFoods() {
         try {
             const response = await fetch('data/foods.json');
-            this.foods = await response.json();
+            const foods = await response.json();
+            this.foods = foods.map(item => ({
+                ...item,
+                foodImage: item.foodImage
+                    ? AppConfig.foodImageBaseUrl + item.foodImage
+                    : item.foodImage,
+            }));
         } catch (error) {
             console.error('加载美食数据失败:', error);
             this.foods = this.getBackupFoods();

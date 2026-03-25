@@ -7,7 +7,9 @@
     "description": "肥而不腻，入口即化的经典家常菜",
     "emoji": "🥩",
     "color": "#8B4513",
-    "rarity": "common"
+    "rarity": "common",
+    "foodType": "荤菜",
+    "foodImage": "UI_ItemIcon_108643.png"
   },
   {
     "id": 2,
@@ -17,7 +19,9 @@
     "description": "酱香浓郁，肉质鲜嫩",
     "emoji": "🍖",
     "color": "#A0522D",
-    "rarity": "common"
+    "rarity": "common",
+    "foodType": "荤菜",
+    "foodImage": "UI_ItemIcon_Recipe_3001.png"
   },
   {
     "id": 3,
@@ -27,7 +31,9 @@
     "description": "甜香软嫩，老少皆宜",
     "emoji": "🍗",
     "color": "#CD853F",
-    "rarity": "common"
+    "rarity": "common",
+    "foodType": "荤菜",
+    "foodImage": "UI_ItemIcon_108392.png"
   },
   {
     "id": 4,
@@ -37,7 +43,9 @@
     "description": "酸甜可口，外酥里嫩",
     "emoji": "🦴",
     "color": "#D2691E",
-    "rarity": "common"
+    "rarity": "common",
+    "foodType": "荤菜",
+    "foodImage": "UI_ItemIcon_108577.png"
   },
   {
     "id": 5,
@@ -47,7 +55,9 @@
     "description": "麻辣鲜香，鱼片嫩滑",
     "emoji": "🐟",
     "color": "#DC143C",
-    "rarity": "common"
+    "rarity": "common",
+    "foodType": "荤菜",
+    "foodImage": "UI_ItemIcon_108105.png"
   },
   {
     "id": 6,
@@ -57,7 +67,9 @@
     "description": "色泽红亮，鲜香味美",
     "emoji": "🐠",
     "color": "#B22222",
-    "rarity": "common"
+    "rarity": "common",
+    "foodType": "荤菜",
+    "foodImage": "UI_ItemIcon_108268.png"
   },
   {
     "id": 7,
@@ -67,7 +79,9 @@
     "description": "咸甜酸辣，色泽诱人",
     "emoji": "🥩",
     "color": "#FF6347",
-    "rarity": "common"
+    "rarity": "common",
+    "foodType": "荤菜",
+    "foodImage": "UI_ItemIcon_108484.png"
   },
   {
     "id": 8,
@@ -77,7 +91,9 @@
     "description": "肉片鲜嫩，麻辣过瘾",
     "emoji": "🥩",
     "color": "#FF4500",
-    "rarity": "common"
+    "rarity": "common",
+    "foodType": "荤菜",
+    "foodImage": "UI_ItemIcon_108099.png"
   },
   {
     "id": 9,
@@ -87,7 +103,9 @@
     "description": "麻辣鲜香，夏日必备",
     "emoji": "🦞",
     "color": "#FF0000",
-    "rarity": "common"
+    "rarity": "common",
+    "foodType": "荤菜",
+    "foodImage": "UI_ItemIcon_108425.png"
   },
   {
     "id": 10,
@@ -97,7 +115,9 @@
     "description": "麻辣鲜香，肉质细嫩",
     "emoji": "🍗",
     "color": "#FF7F50",
-    "rarity": "common"
+    "rarity": "common",
+    "foodType": "荤菜",
+    "foodImage": "UI_ItemIcon_108247.png"
   },
   {
     "id": 11,
@@ -107,7 +127,9 @@
     "description": "香辣酸甜，花生香脆",
     "emoji": "🍗",
     "color": "#FF8C00",
-    "rarity": "common"
+    "rarity": "common",
+    "foodType": "荤菜",
+    "foodImage": "UI_ItemIcon_108543.png"
   },
   {
     "id": 12,
@@ -117,7 +139,9 @@
     "description": "麻辣鲜香，豆腐嫩滑",
     "emoji": "🧈",
     "color": "#CD5C5C",
-    "rarity": "common"
+    "rarity": "common",
+    "foodType": "素菜",
+    "foodImage": "UI_ItemIcon_100428.png"
   },
   {
     "id": 13,
@@ -127,7 +151,9 @@
     "description": "酸甜开胃，简单美味",
     "emoji": "🍅",
     "color": "#FF4500",
-    "rarity": "common"
+    "rarity": "common",
+    "foodType": "素菜",
+    "foodImage": "UI_ItemIcon_108589.png"
   },
   {
     "id": 14,
@@ -137,7 +163,9 @@
     "description": "酸辣爽口，开胃下饭",
     "emoji": "🥔",
     "color": "#FFD700",
-    "rarity": "common"
+    "rarity": "common",
+    "foodType": "素菜",
+    "foodImage": "UI_ItemIcon_108242.png"
   },
   {
     "id": 15,
@@ -147,7 +175,9 @@
     "description": "清香爽口，营养均衡",
     "emoji": "🫑",
     "color": "#32CD32",
-    "rarity": "common"
+    "rarity": "common",
+    "foodType": "荤菜",
+    "foodImage": "UI_ItemIcon_108093.png"
   },
   {
     "id": 16,
@@ -157,7 +187,9 @@
     "description": "营养丰富，清淡健康",
     "emoji": "🥦",
     "color": "#228B22",
-    "rarity": "common"
+    "rarity": "common",
+    "foodType": "素菜",
+    "foodImage": "UI_ItemIcon_108404.png"
   },
   {
     "id": 17,
@@ -167,7 +199,9 @@
     "description": "外焦里嫩，酱香浓郁",
     "emoji": "🧈",
     "color": "#DEB887",
-    "rarity": "common"
+    "rarity": "common",
+    "foodType": "素菜",
+    "foodImage": "UI_ItemIcon_108313.png"
   },
   {
     "id": 18,
@@ -177,7 +211,9 @@
     "description": "虾肉鲜嫩，汁浓味美",
     "emoji": "🦐",
     "color": "#FF6347",
-    "rarity": "common"
+    "rarity": "common",
+    "foodType": "荤菜",
+    "foodImage": "UI_ItemIcon_108322.png"
   },
   {
     "id": 19,
@@ -187,7 +223,9 @@
     "description": "清爽解腻，健康美味",
     "emoji": "🥬",
     "color": "#90EE90",
-    "rarity": "common"
+    "rarity": "common",
+    "foodType": "素菜",
+    "foodImage": "UI_ItemIcon_108359.png"
   },
   {
     "id": 20,
@@ -197,7 +235,9 @@
     "description": "茶香清雅，虾仁鲜嫩",
     "emoji": "🦐",
     "color": "#98FB98",
-    "rarity": "common"
+    "rarity": "common",
+    "foodType": "荤菜",
+    "foodImage": "UI_ItemIcon_108195.png"
   },
   {
     "id": 21,
@@ -207,7 +247,9 @@
     "description": "香甜软糯，鲜香浓郁",
     "emoji": "🌽",
     "color": "#FFA500",
-    "rarity": "common"
+    "rarity": "common",
+    "foodType": "荤菜",
+    "foodImage": "https://ys.appfeng.com/image/none.png"
   },
   {
     "id": 22,
@@ -217,7 +259,9 @@
     "description": "色彩丰富，简单快手",
     "emoji": "🥔",
     "color": "#FFA07A",
-    "rarity": "common"
+    "rarity": "common",
+    "foodType": "荤菜",
+    "foodImage": "UI_ItemIcon_Recipe_2006.png"
   },
   {
     "id": 23,
@@ -227,7 +271,9 @@
     "description": "双椒齐下，麻辣鲜香",
     "emoji": "🌶️",
     "color": "#FF0000",
-    "rarity": "common"
+    "rarity": "common",
+    "foodType": "荤菜",
+    "foodImage": "UI_ItemIcon_108084.png"
   },
   {
     "id": 24,
@@ -237,7 +283,9 @@
     "description": "清脆爽口，健康养生",
     "emoji": "🥬",
     "color": "#2E8B57",
-    "rarity": "common"
+    "rarity": "common",
+    "foodType": "素菜",
+    "foodImage": "UI_ItemIcon_108731.png"
   },
   {
     "id": 25,
@@ -247,7 +295,9 @@
     "description": "外脆里糯，香辣过瘾",
     "emoji": "🥔",
     "color": "#DAA520",
-    "rarity": "common"
+    "rarity": "common",
+    "foodType": "素菜",
+    "foodImage": "UI_ItemIcon_108728.png"
   },
   {
     "id": 26,
@@ -257,7 +307,9 @@
     "description": "茶香浓郁，蛋白Q弹",
     "emoji": "🥚",
     "color": "#8B4513",
-    "rarity": "common"
+    "rarity": "common",
+    "foodType": "荤菜",
+    "foodImage": "UI_ItemIcon_108120.png"
   },
   {
     "id": 27,
@@ -267,7 +319,9 @@
     "description": "爽脆可口，凉拌佳品",
     "emoji": "🪵",
     "color": "#2F4F4F",
-    "rarity": "common"
+    "rarity": "common",
+    "foodType": "素菜",
+    "foodImage": "UI_ItemIcon_108229.png"
   },
   {
     "id": 28,
@@ -277,7 +331,9 @@
     "description": "清脆爽口，营养丰富",
     "emoji": "🪵",
     "color": "#1C1C1C",
-    "rarity": "common"
+    "rarity": "common",
+    "foodType": "素菜",
+    "foodImage": "UI_ItemIcon_Recipe_4003.png"
   },
   {
     "id": 29,
@@ -287,7 +343,9 @@
     "description": "色彩鲜艳，家常美味",
     "emoji": "🫑",
     "color": "#7CFC00",
-    "rarity": "common"
+    "rarity": "common",
+    "foodType": "荤菜",
+    "foodImage": "UI_ItemIcon_108513.png"
   },
   {
     "id": 30,
@@ -297,7 +355,9 @@
     "description": "酸甜开胃，简单暖心",
     "emoji": "🍲",
     "color": "#FF6347",
-    "rarity": "common"
+    "rarity": "common",
+    "foodType": "素菜",
+    "foodImage": "UI_ItemIcon_108180.png"
   },
   {
     "id": 31,
@@ -307,7 +367,9 @@
     "description": "中山特色，皮脆肉嫩",
     "emoji": "🐦",
     "color": "#D2691E",
-    "rarity": "rare"
+    "rarity": "rare",
+    "foodType": "荤菜",
+    "foodImage": "UI_ItemIcon_Recipe_1002.png"
   },
   {
     "id": 32,
@@ -317,7 +379,9 @@
     "description": "中山特产，鱼肉爽脆",
     "emoji": "🐟",
     "color": "#C0C0C0",
-    "rarity": "rare"
+    "rarity": "rare",
+    "foodType": "荤菜",
+    "foodImage": "UI_ItemIcon_108395.png"
   },
   {
     "id": 33,
@@ -327,67 +391,9 @@
     "description": "中山特产水果，甜蜜多汁",
     "emoji": "🍍",
     "color": "#FFD700",
-    "rarity": "rare"
-  },
-  {
-    "id": 34,
-    "name": "石岐佬菜馆",
-    "category": "中山美食",
-    "region": "中山",
-    "description": "1991年老字号，经典中山菜",
-    "emoji": "🏪",
-    "color": "#8B0000",
-    "rarity": "rare"
-  },
-  {
-    "id": 35,
-    "name": "红日饭店",
-    "category": "中山美食",
-    "region": "中山",
-    "description": "裕隆三路店，脆肉皖鱼片",
-    "emoji": "🍽️",
-    "color": "#B22222",
-    "rarity": "rare"
-  },
-  {
-    "id": 36,
-    "name": "孖寶莊園",
-    "category": "中山美食",
-    "region": "中山",
-    "description": "中山特色庄园餐厅",
-    "emoji": "🏰",
-    "color": "#DAA520",
-    "rarity": "rare"
-  },
-  {
-    "id": 37,
-    "name": "岐香村",
-    "category": "中山美食",
-    "region": "中山",
-    "description": "传统中山味道",
-    "emoji": "🏮",
-    "color": "#FF4500",
-    "rarity": "rare"
-  },
-  {
-    "id": 38,
-    "name": "如轩海鲜砂锅粥",
-    "category": "中山美食",
-    "region": "中山",
-    "description": "潮汕特色，鲜香浓郁",
-    "emoji": "🥣",
-    "color": "#F5DEB3",
-    "rarity": "rare"
-  },
-  {
-    "id": 39,
-    "name": "乐美中餐厅",
-    "category": "中山美食",
-    "region": "中山",
-    "description": "中山本地人推荐",
-    "emoji": "🍴",
-    "color": "#CD853F",
-    "rarity": "rare"
+    "rarity": "rare",
+    "foodType": "其他",
+    "foodImage": "UI_ItemIcon_Recipe_2001.png"
   },
   {
     "id": 40,
@@ -397,7 +403,9 @@
     "description": "中山传统小吃，软糯Q弹",
     "emoji": "🍜",
     "color": "#FFFACD",
-    "rarity": "rare"
+    "rarity": "rare",
+    "foodType": "面食",
+    "foodImage": "UI_ItemIcon_108253.png"
   },
   {
     "id": 41,
@@ -407,7 +415,9 @@
     "description": "小榄特色，外酥内嫩",
     "emoji": "🐟",
     "color": "#FFA500",
-    "rarity": "rare"
+    "rarity": "rare",
+    "foodType": "荤菜",
+    "foodImage": "UI_ItemIcon_108525.png"
   },
   {
     "id": 42,
@@ -417,7 +427,9 @@
     "description": "古镇特色，鲜香可口",
     "emoji": "🥮",
     "color": "#F4A460",
-    "rarity": "rare"
+    "rarity": "rare",
+    "foodType": "荤菜",
+    "foodImage": "UI_ItemIcon_108658.png"
   },
   {
     "id": 43,
@@ -427,7 +439,9 @@
     "description": "沙溪特产，牛肉鲜嫩",
     "emoji": "🥩",
     "color": "#8B4513",
-    "rarity": "rare"
+    "rarity": "rare",
+    "foodType": "荤菜",
+    "foodImage": "UI_ItemIcon_108159.png"
   },
   {
     "id": 44,
@@ -437,7 +451,9 @@
     "description": "大涌特色，肉质鲜美",
     "emoji": "🐄",
     "color": "#A0522D",
-    "rarity": "rare"
+    "rarity": "rare",
+    "foodType": "荤菜",
+    "foodImage": "UI_ItemIcon_108337.png"
   },
   {
     "id": 45,
@@ -447,7 +463,9 @@
     "description": "南朗/民众荔枝，甜蜜可口",
     "emoji": "🍒",
     "color": "#FF1493",
-    "rarity": "rare"
+    "rarity": "rare",
+    "foodType": "其他",
+    "foodImage": "UI_ItemIcon_Recipe_3004.png"
   },
   {
     "id": 46,
@@ -457,7 +475,9 @@
     "description": "港口特色，河鲜鲜美",
     "emoji": "🦀",
     "color": "#4682B4",
-    "rarity": "rare"
+    "rarity": "rare",
+    "foodType": "荤菜",
+    "foodImage": "UI_ItemIcon_108192.png"
   },
   {
     "id": 47,
@@ -467,7 +487,9 @@
     "description": "东升特色，爽脆Q弹",
     "emoji": "🍡",
     "color": "#FFFAFA",
-    "rarity": "rare"
+    "rarity": "rare",
+    "foodType": "荤菜",
+    "foodImage": "UI_ItemIcon_108640.png"
   },
   {
     "id": 48,
@@ -477,7 +499,9 @@
     "description": "饭焦香脆，腊味浓郁",
     "emoji": "🍚",
     "color": "#D2691E",
-    "rarity": "rare"
+    "rarity": "rare",
+    "foodType": "面食",
+    "foodImage": "UI_ItemIcon_108256.png"
   },
   {
     "id": 49,
@@ -487,7 +511,9 @@
     "description": "中山时令海鲜，蟹肉鲜甜",
     "emoji": "🦀",
     "color": "#CD5C5C",
-    "rarity": "rare"
+    "rarity": "rare",
+    "foodType": "荤菜",
+    "foodImage": "UI_ItemIcon_108102.png"
   },
   {
     "id": 50,
@@ -497,147 +523,9 @@
     "description": "中山名菜，一鸽胜九鸡",
     "emoji": "🐦",
     "color": "#DEB887",
-    "rarity": "rare"
-  },
-  {
-    "id": 51,
-    "name": "香山家宴",
-    "category": "中山美食",
-    "region": "中山",
-    "description": "西区彩虹大道，传统粤菜精髓",
-    "emoji": "🏮",
-    "color": "#B8860B",
-    "rarity": "epic"
-  },
-  {
-    "id": 52,
-    "name": "煲煲掂",
-    "category": "中山美食",
-    "region": "中山",
-    "description": "中山老字号，煲仔饭一绝",
-    "emoji": "🍲",
-    "color": "#8B4513",
-    "rarity": "epic"
-  },
-  {
-    "id": 53,
-    "name": "石岐佬中山菜馆",
-    "category": "中山美食",
-    "region": "中山",
-    "description": "张溪店，中山菜集大成者",
-    "emoji": "🏪",
-    "color": "#A52A2A",
-    "rarity": "epic"
-  },
-  {
-    "id": 54,
-    "name": "阿炮美食城",
-    "category": "中山美食",
-    "region": "中山",
-    "description": "本地人常去，性价比超高",
-    "emoji": "🍴",
-    "color": "#CD853F",
-    "rarity": "rare"
-  },
-  {
-    "id": 55,
-    "name": "海港海鲜酒楼",
-    "category": "中山美食",
-    "region": "中山",
-    "description": "海鲜新鲜，招牌鱼虾蟹",
-    "emoji": "🦐",
-    "color": "#4682B4",
-    "rarity": "epic"
-  },
-  {
-    "id": 56,
-    "name": "陶陶居酒家",
-    "category": "广州美食",
-    "region": "广州",
-    "description": "百年老字号，粤菜点心之王",
-    "emoji": "🏮",
-    "color": "#8B0000",
-    "rarity": "epic"
-  },
-  {
-    "id": 57,
-    "name": "侨美食家",
-    "category": "广州美食",
-    "region": "广州",
-    "description": "体育西必吃，粤菜经典",
-    "emoji": "🍽️",
-    "color": "#B22222",
-    "rarity": "epic"
-  },
-  {
-    "id": 58,
-    "name": "滋粥楼小馆",
-    "category": "广州美食",
-    "region": "广州",
-    "description": "天河城店，粥品一绝",
-    "emoji": "🥣",
-    "color": "#F5DEB3",
-    "rarity": "rare"
-  },
-  {
-    "id": 59,
-    "name": "品味东江",
-    "category": "广州美食",
-    "region": "广州",
-    "description": "新塘店，东江菜代表",
-    "emoji": "🍲",
-    "color": "#D2691E",
-    "rarity": "rare"
-  },
-  {
-    "id": 60,
-    "name": "阿姨牛杂",
-    "category": "广州美食",
-    "region": "广州",
-    "description": "街头烟火小店，魂牵梦绕",
-    "emoji": "🥘",
-    "color": "#8B4513",
-    "rarity": "rare"
-  },
-  {
-    "id": 61,
-    "name": "粤·向群饭店",
-    "category": "广州美食",
-    "region": "广州",
-    "description": "米其林推荐，镬气十足",
-    "emoji": "🏪",
-    "color": "#CD5C5C",
-    "rarity": "epic"
-  },
-  {
-    "id": 62,
-    "name": "惠食佳",
-    "category": "广州美食",
-    "region": "广州",
-    "description": "二十年老店，啫煲之王",
-    "emoji": "🍲",
-    "color": "#A0522D",
-    "rarity": "epic"
-  },
-  {
-    "id": 63,
-    "name": "莲香楼",
-    "category": "广州美食",
-    "region": "广州",
-    "description": "百年茶楼，莲蓉月饼鼻祖",
-    "emoji": "🥮",
-    "color": "#FFD700",
-    "rarity": "epic"
-  },
-  {
-    "id": 64,
-    "name": "点都德",
-    "category": "广州美食",
-    "region": "广州",
-    "description": "连锁茶楼，点心品种超多",
-    "emoji": "🍵",
-    "color": "#DEB887",
-    "rarity": "rare"
+    "rarity": "rare",
+    "foodType": "荤菜",
+    "foodImage": "UI_ItemIcon_108096.png"
   },
   {
     "id": 65,
@@ -647,7 +535,9 @@
     "description": "必吃榜上榜，肠粉Q弹",
     "emoji": "🥟",
     "color": "#FFFACD",
-    "rarity": "rare"
+    "rarity": "rare",
+    "foodType": "面食",
+    "foodImage": "UI_ItemIcon_108198.png"
   },
   {
     "id": 66,
@@ -657,7 +547,9 @@
     "description": "烧腊经典，皮脆肉嫩",
     "emoji": "🦆",
     "color": "#8B4513",
-    "rarity": "rare"
+    "rarity": "rare",
+    "foodType": "荤菜",
+    "foodImage": "UI_ItemIcon_108646.png"
   },
   {
     "id": 67,
@@ -667,7 +559,9 @@
     "description": "光明区招牌，皮脆肉滑",
     "emoji": "🐦",
     "color": "#DAA520",
-    "rarity": "rare"
+    "rarity": "rare",
+    "foodType": "荤菜",
+    "foodImage": "UI_ItemIcon_108382.png"
   },
   {
     "id": 68,
@@ -677,7 +571,9 @@
     "description": "现切牛肉，火锅圣地",
     "emoji": "🍲",
     "color": "#CD5C5C",
-    "rarity": "common"
+    "rarity": "common",
+    "foodType": "荤菜",
+    "foodImage": "UI_ItemIcon_108743.png"
   },
   {
     "id": 69,
@@ -687,157 +583,9 @@
     "description": "潮汕火锅代表，牛肉新鲜",
     "emoji": "🥩",
     "color": "#B22222",
-    "rarity": "rare"
-  },
-  {
-    "id": 70,
-    "name": "海底捞火锅",
-    "category": "全国美食",
-    "region": "全国",
-    "description": "服务一流，川味火锅",
-    "emoji": "🍲",
-    "color": "#FF6347",
-    "rarity": "common"
-  },
-  {
-    "id": 71,
-    "name": "太二酸菜鱼",
-    "category": "全国美食",
-    "region": "全国",
-    "description": "酸菜鱼网红，排队王",
-    "emoji": "🐟",
-    "color": "#FFD700",
-    "rarity": "common"
-  },
-  {
-    "id": 72,
-    "name": "西贝莜面村",
-    "category": "全国美食",
-    "region": "西北",
-    "description": "西北菜代表，莜面美味",
-    "emoji": "🍜",
-    "color": "#F4A460",
-    "rarity": "common"
-  },
-  {
-    "id": 73,
-    "name": "绿茶餐厅",
-    "category": "全国美食",
-    "region": "全国",
-    "description": "江浙菜代表，平价美味",
-    "emoji": "🍵",
-    "color": "#90EE90",
-    "rarity": "common"
-  },
-  {
-    "id": 74,
-    "name": "、外婆家",
-    "category": "全国美食",
-    "region": "全国",
-    "description": "性价比之王，等位王",
-    "emoji": "🏡",
-    "color": "#8FBC8F",
-    "rarity": "common"
-  },
-  {
-    "id": 75,
-    "name": "炳胜品味",
-    "category": "广州美食",
-    "region": "广州",
-    "description": "粤菜标杆，招牌叉烧",
-    "emoji": "🍖",
-    "color": "#CD853F",
-    "rarity": "epic"
-  },
-  {
-    "id": 76,
-    "name": "广州酒家",
-    "category": "广州美食",
-    "region": "广州",
-    "description": "老牌酒家，月饼之王",
-    "emoji": "🏮",
-    "color": "#B22222",
-    "rarity": "epic"
-  },
-  {
-    "id": 77,
-    "name": "白天鹅宾馆",
-    "category": "广州美食",
-    "region": "广州",
-    "description": "五星级早茶，景观一流",
-    "emoji": "🦢",
-    "color": "#F5F5F5",
-    "rarity": "epic"
-  },
-  {
-    "id": 78,
-    "name": "唐苑酒家",
-    "category": "广州美食",
-    "region": "广州",
-    "description": "园林酒家，粤菜精品",
-    "emoji": "🏯",
-    "color": "#228B22",
-    "rarity": "epic"
-  },
-  {
-    "id": 79,
-    "name": "点心皇子",
-    "category": "广州美食",
-    "region": "广州",
-    "description": "点心专门店，品种丰富",
-    "emoji": "🥟",
-    "color": "#FFA500",
-    "rarity": "rare"
-  },
-  {
-    "id": 80,
-    "name": "利苑酒家",
-    "category": "广州美食",
-    "region": "广州",
-    "description": "米其林一星，粤菜典范",
-    "emoji": "⭐",
-    "color": "#FFD700",
-    "rarity": "epic"
-  },
-  {
-    "id": 81,
-    "name": "南园酒家",
-    "category": "广州美食",
-    "region": "广州",
-    "description": "老字号园林酒家",
-    "emoji": "🏡",
-    "color": "#8B4513",
-    "rarity": "epic"
-  },
-  {
-    "id": 82,
-    "name": "北园酒家",
-    "category": "广州美食",
-    "region": "广州",
-    "description": "百年老店，园林风格",
-    "emoji": "🏯",
-    "color": "#A0522D",
-    "rarity": "epic"
-  },
-  {
-    "id": 83,
-    "name": "大同酒家",
-    "category": "广州美食",
-    "region": "广州",
-    "description": "老广州记忆，粤菜经典",
-    "emoji": "🏪",
-    "color": "#CD5C5C",
-    "rarity": "rare"
-  },
-  {
-    "id": 84,
-    "name": "致美斋",
-    "category": "广州美食",
-    "region": "广州",
-    "description": "老字号酱料，烧烤一流",
-    "emoji": "🥘",
-    "color": "#8B0000",
-    "rarity": "rare"
+    "rarity": "rare",
+    "foodType": "荤菜",
+    "foodImage": "UI_ItemIcon_Recipe_1003.png"
   },
   {
     "id": 85,
@@ -847,7 +595,9 @@
     "description": "顺德特色，鲜甜爽滑",
     "emoji": "🐟",
     "color": "#C0C0C0",
-    "rarity": "rare"
+    "rarity": "rare",
+    "foodType": "荤菜",
+    "foodImage": "UI_ItemIcon_108422.png"
   },
   {
     "id": 86,
@@ -857,7 +607,9 @@
     "description": "顺德甜品，入口即化",
     "emoji": "🥛",
     "color": "#FFFACD",
-    "rarity": "common"
+    "rarity": "common",
+    "foodType": "其他",
+    "foodImage": "UI_ItemIcon_108274.png"
   },
   {
     "id": 87,
@@ -867,7 +619,9 @@
     "description": "顺德名菜，肉香四溢",
     "emoji": "🐷",
     "color": "#F5DEB3",
-    "rarity": "rare"
+    "rarity": "rare",
+    "foodType": "荤菜",
+    "foodImage": "UI_ItemIcon_108108.png"
   },
   {
     "id": 88,
@@ -877,27 +631,9 @@
     "description": "老字号鱼皮，爽脆可口",
     "emoji": "🐟",
     "color": "#D2B48C",
-    "rarity": "rare"
-  },
-  {
-    "id": 89,
-    "name": "伍湛记粥",
-    "category": "广州美食",
-    "region": "广州",
-    "description": "老字号粥店，绵滑香浓",
-    "emoji": "🥣",
-    "color": "#F5F5DC",
-    "rarity": "rare"
-  },
-  {
-    "id": 90,
-    "name": "南信牛奶甜品",
-    "category": "广州美食",
-    "region": "广州",
-    "description": "百年老店，双皮奶正宗",
-    "emoji": "🍮",
-    "color": "#FFFACD",
-    "rarity": "rare"
+    "rarity": "rare",
+    "foodType": "荤菜",
+    "foodImage": "UI_ItemIcon_108189.png"
   },
   {
     "id": 91,
@@ -907,17 +643,9 @@
     "description": "布拉肠粉，薄如蝉翼",
     "emoji": "🥟",
     "color": "#F5F5F5",
-    "rarity": "rare"
-  },
-  {
-    "id": 92,
-    "name": "荔湾名食家",
-    "category": "广州美食",
-    "region": "广州",
-    "description": "老广州味道，一站式尝遍",
-    "emoji": "🍜",
-    "color": "#CD853F",
-    "rarity": "rare"
+    "rarity": "rare",
+    "foodType": "面食",
+    "foodImage": "UI_ItemIcon_108265.png"
   },
   {
     "id": 93,
@@ -927,7 +655,9 @@
     "description": "老字号点心，叉烧包之王",
     "emoji": "🥯",
     "color": "#D2691E",
-    "rarity": "rare"
+    "rarity": "rare",
+    "foodType": "面食",
+    "foodImage": "UI_ItemIcon_108375.png"
   },
   {
     "id": 94,
@@ -937,7 +667,9 @@
     "description": "专门做虾饺，皮薄馅大",
     "emoji": "🥟",
     "color": "#FF6347",
-    "rarity": "rare"
+    "rarity": "rare",
+    "foodType": "面食",
+    "foodImage": "UI_ItemIcon_108325.png"
   },
   {
     "id": 95,
@@ -947,7 +679,9 @@
     "description": "皮薄汤浓，鲜香可口",
     "emoji": "🥟",
     "color": "#F5DEB3",
-    "rarity": "common"
+    "rarity": "common",
+    "foodType": "面食",
+    "foodImage": "UI_ItemIcon_108352.png"
   },
   {
     "id": 96,
@@ -957,7 +691,9 @@
     "description": "皮脆肉嫩，色泽诱人",
     "emoji": "🦆",
     "color": "#8B4513",
-    "rarity": "rare"
+    "rarity": "rare",
+    "foodType": "荤菜",
+    "foodImage": "UI_ItemIcon_108295.png"
   },
   {
     "id": 97,
@@ -967,7 +703,9 @@
     "description": "蜜汁叉烧，甜香软糯",
     "emoji": "🍖",
     "color": "#CD5C5C",
-    "rarity": "common"
+    "rarity": "common",
+    "foodType": "荤菜",
+    "foodImage": "UI_ItemIcon_108331.png"
   },
   {
     "id": 98,
@@ -977,7 +715,9 @@
     "description": "原汁原味，鸡肉鲜嫩",
     "emoji": "🐔",
     "color": "#FFE4B5",
-    "rarity": "common"
+    "rarity": "common",
+    "foodType": "荤菜",
+    "foodImage": "UI_ItemIcon_Recipe_1004.png"
   },
   {
     "id": 99,
@@ -987,7 +727,9 @@
     "description": "客家名菜，鸡肉咸香",
     "emoji": "🐔",
     "color": "#D2B48C",
-    "rarity": "common"
+    "rarity": "common",
+    "foodType": "荤菜",
+    "foodImage": "UI_ItemIcon_Recipe_2002.png"
   },
   {
     "id": 100,
@@ -997,7 +739,9 @@
     "description": "皮脆肉嫩，烤香浓郁",
     "emoji": "🦆",
     "color": "#8B4513",
-    "rarity": "common"
+    "rarity": "common",
+    "foodType": "荤菜",
+    "foodImage": "UI_ItemIcon_108637.png"
   },
   {
     "id": 101,
@@ -1007,7 +751,9 @@
     "description": "宴席名菜，皮脆肉嫩",
     "emoji": "🐷",
     "color": "#FFA07A",
-    "rarity": "epic"
+    "rarity": "epic",
+    "foodType": "荤菜",
+    "foodImage": "UI_ItemIcon_108716.png"
   },
   {
     "id": 102,
@@ -1017,7 +763,9 @@
     "description": "海鲜经典，原汁原味",
     "emoji": "🐠",
     "color": "#C0C0C0",
-    "rarity": "rare"
+    "rarity": "rare",
+    "foodType": "荤菜",
+    "foodImage": "UI_ItemIcon_108078.png"
   },
   {
     "id": 103,
@@ -1027,7 +775,9 @@
     "description": "虾肉鲜甜，蘸料美味",
     "emoji": "🦐",
     "color": "#FF6347",
-    "rarity": "common"
+    "rarity": "common",
+    "foodType": "荤菜",
+    "foodImage": "UI_ItemIcon_108126.png"
   },
   {
     "id": 104,
@@ -1037,7 +787,9 @@
     "description": "外酥内嫩，虾肉鲜美",
     "emoji": "🦐",
     "color": "#FF8C00",
-    "rarity": "common"
+    "rarity": "common",
+    "foodType": "荤菜",
+    "foodImage": "UI_ItemIcon_108740.png"
   },
   {
     "id": 105,
@@ -1047,7 +799,9 @@
     "description": "街头经典，镬气十足",
     "emoji": "🍜",
     "color": "#D2691E",
-    "rarity": "common"
+    "rarity": "common",
+    "foodType": "面食",
+    "foodImage": "UI_ItemIcon_Recipe_4001.png"
   },
   {
     "id": 106,
@@ -1057,7 +811,9 @@
     "description": "色泽油亮，牛肉嫩滑",
     "emoji": "🍜",
     "color": "#CD853F",
-    "rarity": "common"
+    "rarity": "common",
+    "foodType": "面食",
+    "foodImage": "UI_ItemIcon_108710.png"
   },
   {
     "id": 107,
@@ -1067,7 +823,9 @@
     "description": "点心经典，XO酱浓郁",
     "emoji": "🥞",
     "color": "#F5DEB3",
-    "rarity": "common"
+    "rarity": "common",
+    "foodType": "面食",
+    "foodImage": "UI_ItemIcon_Recipe_1001.png"
   },
   {
     "id": 108,
@@ -1077,7 +835,9 @@
     "description": "竹升面弹牙，云吞鲜美",
     "emoji": "🥟",
     "color": "#FFFACD",
-    "rarity": "common"
+    "rarity": "common",
+    "foodType": "面食",
+    "foodImage": "UI_ItemIcon_108378.png"
   },
   {
     "id": 109,
@@ -1087,7 +847,9 @@
     "description": "老广州味道，滋补暖胃",
     "emoji": "🥣",
     "color": "#8B4513",
-    "rarity": "rare"
+    "rarity": "rare",
+    "foodType": "荤菜",
+    "foodImage": "UI_ItemIcon_108156.png"
   },
   {
     "id": 110,
@@ -1097,7 +859,9 @@
     "description": "水上人家传承，料多味鲜",
     "emoji": "🥣",
     "color": "#F5F5DC",
-    "rarity": "rare"
+    "rarity": "rare",
+    "foodType": "面食",
+    "foodImage": "UI_ItemIcon_108142.png"
   },
   {
     "id": 111,
@@ -1107,7 +871,9 @@
     "description": "客家名菜，汤鲜味美",
     "emoji": "🐔",
     "color": "#FFE4B5",
-    "rarity": "common"
+    "rarity": "common",
+    "foodType": "荤菜",
+    "foodImage": "UI_ItemIcon_108586.png"
   },
   {
     "id": 112,
@@ -1117,7 +883,9 @@
     "description": "客家经典，豆腐嫩滑",
     "emoji": "🧈",
     "color": "#F5F5DC",
-    "rarity": "common"
+    "rarity": "common",
+    "foodType": "荤菜",
+    "foodImage": "UI_ItemIcon_108177.png"
   },
   {
     "id": 113,
@@ -1127,7 +895,9 @@
     "description": "肥而不腻，入口即化",
     "emoji": "🥩",
     "color": "#8B4513",
-    "rarity": "common"
+    "rarity": "common",
+    "foodType": "荤菜",
+    "foodImage": "UI_ItemIcon_108205.png"
   },
   {
     "id": 114,
@@ -1137,7 +907,9 @@
     "description": "鸡肉咸香，手撕更香",
     "emoji": "🐔",
     "color": "#D2B48C",
-    "rarity": "common"
+    "rarity": "common",
+    "foodType": "荤菜",
+    "foodImage": "UI_ItemIcon_108239.png"
   },
   {
     "id": 115,
@@ -1147,7 +919,9 @@
     "description": "色泽红亮，肉质软烂",
     "emoji": "🥩",
     "color": "#CD5C5C",
-    "rarity": "common"
+    "rarity": "common",
+    "foodType": "荤菜",
+    "foodImage": "UI_ItemIcon_108310.png"
   },
   {
     "id": 116,
@@ -1157,7 +931,9 @@
     "description": "顺滑香浓，饭后甜品",
     "emoji": "🍮",
     "color": "#FFD700",
-    "rarity": "common"
+    "rarity": "common",
+    "foodType": "其他",
+    "foodImage": "UI_ItemIcon_108286.png"
   },
   {
     "id": 117,
@@ -1167,7 +943,9 @@
     "description": "经典糖水，清甜解暑",
     "emoji": "🥭",
     "color": "#FFE4B5",
-    "rarity": "common"
+    "rarity": "common",
+    "foodType": "饮品",
+    "foodImage": "UI_ItemIcon_108661.png"
   },
   {
     "id": 118,
@@ -1177,7 +955,9 @@
     "description": "清热解毒，传统凉茶",
     "emoji": "🫘",
     "color": "#2F4F4F",
-    "rarity": "common"
+    "rarity": "common",
+    "foodType": "饮品",
+    "foodImage": "UI_ItemIcon_Recipe_3002.png"
   },
   {
     "id": 119,
@@ -1187,7 +967,9 @@
     "description": "香甜可口，夏日必备",
     "emoji": "🥥",
     "color": "#FFFACD",
-    "rarity": "common"
+    "rarity": "common",
+    "foodType": "饮品",
+    "foodImage": "UI_ItemIcon_108410.png"
   },
   {
     "id": 120,
@@ -1197,7 +979,9 @@
     "description": "美容养颜，女士最爱",
     "emoji": "🍈",
     "color": "#FFB6C1",
-    "rarity": "rare"
+    "rarity": "rare",
+    "foodType": "其他",
+    "foodImage": "UI_ItemIcon_108289.png"
   },
   {
     "id": 121,
@@ -1207,7 +991,9 @@
     "description": "现撞现吃，香浓暖胃",
     "emoji": "🥛",
     "color": "#F5F5DC",
-    "rarity": "common"
+    "rarity": "common",
+    "foodType": "饮品",
+    "foodImage": "UI_ItemIcon_108471.png"
   },
   {
     "id": 122,
@@ -1217,7 +1003,9 @@
     "description": "顺德正宗，细腻嫩滑",
     "emoji": "🍮",
     "color": "#FFFACD",
-    "rarity": "common"
+    "rarity": "common",
+    "foodType": "其他",
+    "foodImage": "UI_ItemIcon_108319.png"
   },
   {
     "id": 123,
@@ -1227,7 +1015,9 @@
     "description": "豉汁凤爪，入口即脱骨",
     "emoji": "🐔",
     "color": "#D2691E",
-    "rarity": "common"
+    "rarity": "common",
+    "foodType": "荤菜",
+    "foodImage": "UI_ItemIcon_108574.png"
   },
   {
     "id": 124,
@@ -1235,9 +1025,11 @@
     "category": "粤菜",
     "region": "广东",
     "description": "豉汁排骨，蒸饭必备",
-    "emoji": "�排骨",
+    "emoji": "🦴",
     "color": "#CD853F",
-    "rarity": "common"
+    "rarity": "common",
+    "foodType": "荤菜",
+    "foodImage": "UI_ItemIcon_108262.png"
   },
   {
     "id": 125,
@@ -1247,7 +1039,9 @@
     "description": "点心之王，虾仁Q弹",
     "emoji": "🥟",
     "color": "#FF6347",
-    "rarity": "common"
+    "rarity": "common",
+    "foodType": "面食",
+    "foodImage": "UI_ItemIcon_108334.png"
   },
   {
     "id": 126,
@@ -1257,7 +1051,9 @@
     "description": "经典点心，爆口流汁",
     "emoji": "🥯",
     "color": "#D2691E",
-    "rarity": "common"
+    "rarity": "common",
+    "foodType": "面食",
+    "foodImage": "UI_ItemIcon_108328.png"
   },
   {
     "id": 127,
@@ -1267,7 +1063,9 @@
     "description": "金黄流沙，甜而不腻",
     "emoji": "🥯",
     "color": "#FFD700",
-    "rarity": "common"
+    "rarity": "common",
+    "foodType": "面食",
+    "foodImage": "UI_ItemIcon_108522.png"
   },
   {
     "id": 128,
@@ -1277,7 +1075,9 @@
     "description": "香滑奶黄，甜香浓郁",
     "emoji": "🥯",
     "color": "#FFE4B5",
-    "rarity": "common"
+    "rarity": "common",
+    "foodType": "面食",
+    "foodImage": "UI_ItemIcon_108349.png"
   },
   {
     "id": 129,
@@ -1287,7 +1087,9 @@
     "description": "晶莹剔透，清甜爽口",
     "emoji": "🥞",
     "color": "#F5DEB3",
-    "rarity": "common"
+    "rarity": "common",
+    "foodType": "面食",
+    "foodImage": "UI_ItemIcon_108461.png"
   },
   {
     "id": 130,
@@ -1297,7 +1099,9 @@
     "description": "煎至金黄，外脆内软",
     "emoji": "🥞",
     "color": "#F5DEB3",
-    "rarity": "common"
+    "rarity": "common",
+    "foodType": "面食",
+    "foodImage": "UI_ItemIcon_108504.png"
   },
   {
     "id": 131,
@@ -1307,7 +1111,9 @@
     "description": "手打牛肉丸，Q弹多汁",
     "emoji": "🍡",
     "color": "#8B4513",
-    "rarity": "common"
+    "rarity": "common",
+    "foodType": "荤菜",
+    "foodImage": "UI_ItemIcon_108555.png"
   },
   {
     "id": 132,
@@ -1317,7 +1123,9 @@
     "description": "鲜鱼手打，弹牙鲜甜",
     "emoji": "🍡",
     "color": "#C0C0C0",
-    "rarity": "common"
+    "rarity": "common",
+    "foodType": "荤菜",
+    "foodImage": "UI_ItemIcon_108186.png"
   },
   {
     "id": 133,
@@ -1327,7 +1135,9 @@
     "description": "现切牛肉，部位讲究",
     "emoji": "🍲",
     "color": "#CD5C5C",
-    "rarity": "common"
+    "rarity": "common",
+    "foodType": "荤菜",
+    "foodImage": "UI_ItemIcon_108734.png"
   },
   {
     "id": 134,
@@ -1337,7 +1147,9 @@
     "description": "潮汕特色，米香浓郁",
     "emoji": "🍜",
     "color": "#F5F5F5",
-    "rarity": "common"
+    "rarity": "common",
+    "foodType": "面食",
+    "foodImage": "UI_ItemIcon_Recipe_1005.png"
   },
   {
     "id": 135,
@@ -1347,7 +1159,9 @@
     "description": "潮汕卤味，韵味十足",
     "emoji": "🥘",
     "color": "#8B4513",
-    "rarity": "rare"
+    "rarity": "rare",
+    "foodType": "荤菜",
+    "foodImage": "UI_ItemIcon_Recipe_2004.png"
   },
   {
     "id": 136,
@@ -1357,7 +1171,9 @@
     "description": "潮汕毒药，鲜甜可口",
     "emoji": "🦐",
     "color": "#FF6347",
-    "rarity": "rare"
+    "rarity": "rare",
+    "foodType": "荤菜",
+    "foodImage": "UI_ItemIcon_108153.png"
   },
   {
     "id": 137,
@@ -1367,7 +1183,9 @@
     "description": "蟹膏丰满，滋味鲜美",
     "emoji": "🦀",
     "color": "#CD5C5C",
-    "rarity": "epic"
+    "rarity": "epic",
+    "foodType": "荤菜",
+    "foodImage": "UI_ItemIcon_108271.png"
   },
   {
     "id": 138,
@@ -1377,7 +1195,9 @@
     "description": "潮汕名贵海鲜，脆爽鲜甜",
     "emoji": "🐚",
     "color": "#F5DEB3",
-    "rarity": "epic"
+    "rarity": "epic",
+    "foodType": "荤菜",
+    "foodImage": "UI_ItemIcon_Recipe_2003.png"
   },
   {
     "id": 139,
@@ -1387,7 +1207,9 @@
     "description": "造型精美，虾仁鲜嫩",
     "emoji": "🥟",
     "color": "#FF6347",
-    "rarity": "rare"
+    "rarity": "rare",
+    "foodType": "面食",
+    "foodImage": "UI_ItemIcon_Recipe_3003.png"
   },
   {
     "id": 140,
@@ -1397,7 +1219,9 @@
     "description": "酥皮点心，造型逼真",
     "emoji": "🦢",
     "color": "#FFD700",
-    "rarity": "rare"
+    "rarity": "rare",
+    "foodType": "面食",
+    "foodImage": "UI_ItemIcon_108162.png"
   },
   {
     "id": 141,
@@ -1407,7 +1231,9 @@
     "description": "鲍汁浓郁，凤爪软糯",
     "emoji": "🐔",
     "color": "#8B4513",
-    "rarity": "rare"
+    "rarity": "rare",
+    "foodType": "荤菜",
+    "foodImage": "UI_ItemIcon_108722.png"
   },
   {
     "id": 142,
@@ -1417,7 +1243,9 @@
     "description": "西式做法，中式风味",
     "emoji": "🥩",
     "color": "#8B4513",
-    "rarity": "common"
+    "rarity": "common",
+    "foodType": "荤菜",
+    "foodImage": "UI_ItemIcon_Recipe_4002.png"
   },
   {
     "id": 143,
@@ -1425,9 +1253,11 @@
     "category": "粤菜",
     "region": "广东",
     "description": "蒜香浓郁，排骨酥脆",
-    "emoji": "�排骨",
+    "emoji": "🦴",
     "color": "#D2691E",
-    "rarity": "common"
+    "rarity": "common",
+    "foodType": "荤菜",
+    "foodImage": "UI_ItemIcon_108416.png"
   },
   {
     "id": 144,
@@ -1437,7 +1267,9 @@
     "description": "酸甜可口，外酥里嫩",
     "emoji": "🥩",
     "color": "#FF6347",
-    "rarity": "common"
+    "rarity": "common",
+    "foodType": "荤菜",
+    "foodImage": "UI_ItemIcon_108692.png"
   },
   {
     "id": 145,
@@ -1447,7 +1279,9 @@
     "description": "金黄拔丝，甜香软糯",
     "emoji": "🍌",
     "color": "#FFD700",
-    "rarity": "common"
+    "rarity": "common",
+    "foodType": "其他",
+    "foodImage": "UI_ItemIcon_108534.png"
   },
   {
     "id": 146,
@@ -1457,7 +1291,9 @@
     "description": "外脆内嫩，奶香浓郁",
     "emoji": "🍮",
     "color": "#FFE4B5",
-    "rarity": "rare"
+    "rarity": "rare",
+    "foodType": "其他",
+    "foodImage": "UI_ItemIcon_Recipe_2001.png"
   },
   {
     "id": 147,
@@ -1467,7 +1303,9 @@
     "description": "葡式蛋挞，酥皮香浓",
     "emoji": "🥧",
     "color": "#FFD700",
-    "rarity": "common"
+    "rarity": "common",
+    "foodType": "面食",
+    "foodImage": "UI_ItemIcon_108168.png"
   },
   {
     "id": 148,
@@ -1477,7 +1315,9 @@
     "description": "外皮酥脆，奶香浓郁",
     "emoji": "🥯",
     "color": "#D2691E",
-    "rarity": "common"
+    "rarity": "common",
+    "foodType": "面食",
+    "foodImage": "UI_ItemIcon_108695.png"
   },
   {
     "id": 149,
@@ -1487,7 +1327,9 @@
     "description": "升级版菠萝包，更酥脆",
     "emoji": "🥯",
     "color": "#CD853F",
-    "rarity": "common"
+    "rarity": "common",
+    "foodType": "面食",
+    "foodImage": "UI_ItemIcon_108452.png"
   },
   {
     "id": 150,
@@ -1497,336 +1339,8 @@
     "description": "广州特产，酥脆咸香",
     "emoji": "🥮",
     "color": "#D2691E",
-    "rarity": "rare"
-  },
-  {
-    "id": 151,
-    "name": "Flora94咖啡馆",
-    "category": "中山网红打卡点",
-    "region": "中山石岐",
-    "description": "ins风网红咖啡馆，闺蜜约会必打卡",
-    "emoji": "☕",
-    "color": "#FFB6C1",
     "rarity": "rare",
-    "tags": ["网红打卡", "咖啡", "甜品"]
-  },
-  {
-    "id": 152,
-    "name": "煲煲掂风味煲仔饭",
-    "category": "中山网红打卡点",
-    "region": "中山石岐",
-    "description": "中山老字号，乳鸽煲仔饭一绝",
-    "emoji": "🍲",
-    "color": "#8B4513",
-    "rarity": "epic",
-    "tags": ["网红打卡", "煲仔饭", "乳鸽"]
-  },
-  {
-    "id": 153,
-    "name": "石岐佬中山菜馆",
-    "category": "中山网红打卡点",
-    "region": "中山石岐",
-    "description": "1991年老字号，中山菜集大成者",
-    "emoji": "🏪",
-    "color": "#A52A2A",
-    "rarity": "epic",
-    "tags": ["网红打卡", "中山菜", "老字号"]
-  },
-  {
-    "id": 154,
-    "name": "香山家宴",
-    "category": "中山网红打卡点",
-    "region": "中山西区",
-    "description": "传统粤菜精髓，园林式用餐环境",
-    "emoji": "🏮",
-    "color": "#B8860B",
-    "rarity": "epic",
-    "tags": ["网红打卡", "粤菜", "园林"]
-  },
-  {
-    "id": 155,
-    "name": "红日饭店",
-    "category": "中山网红打卡点",
-    "region": "中山石岐",
-    "description": "裕隆三路店，脆肉鲩鱼片正宗",
-    "emoji": "🍽️",
-    "color": "#B22222",
-    "rarity": "rare",
-    "tags": ["网红打卡", "河鲜", "脆肉鲩"]
-  },
-  {
-    "id": 156,
-    "name": "日报咖啡",
-    "category": "中山网红打卡点",
-    "region": "中山",
-    "description": "首家中式咖啡店，复古亮色装修",
-    "emoji": "☕",
-    "color": "#D2691E",
-    "rarity": "rare",
-    "tags": ["网红打卡", "咖啡", "中式风格"]
-  },
-  {
-    "id": 157,
-    "name": "甜苑冰室",
-    "category": "中山网红打卡点",
-    "region": "中山小榄",
-    "description": "小榄老字号冰室，菊花美食",
-    "emoji": "🍧",
-    "color": "#FF69B4",
-    "rarity": "rare",
-    "tags": ["网红打卡", "甜品", "菊花"]
-  },
-  {
-    "id": 158,
-    "name": "紫菊苑甜品店",
-    "category": "中山网红打卡点",
-    "region": "中山小榄",
-    "description": "小榄特色甜品店，鲜奶炖品",
-    "emoji": "🍮",
-    "color": "#FFD700",
-    "rarity": "rare",
-    "tags": ["网红打卡", "甜品", "炖品"]
-  },
-  {
-    "id": 159,
-    "name": "莎娜娜餐厅",
-    "category": "中山网红打卡点",
-    "region": "中山小榄",
-    "description": "小榄网红打卡餐厅，拍照出片",
-    "emoji": "🍴",
-    "color": "#FF6347",
-    "rarity": "rare",
-    "tags": ["网红打卡", "餐厅", "拍照"]
-  },
-  {
-    "id": 160,
-    "name": "BAGGO咖啡",
-    "category": "中山网红打卡点",
-    "region": "中山东区",
-    "description": "利和广场咖啡店，潮流打卡地",
-    "emoji": "☕",
-    "color": "#4A4A4A",
-    "rarity": "rare",
-    "tags": ["网红打卡", "咖啡", "商场"]
-  },
-  {
-    "id": 161,
-    "name": "厚米主题咖啡店",
-    "category": "中山网红打卡点",
-    "region": "中山",
-    "description": "粉黑色调咖啡店，中山首家厚米主题",
-    "emoji": "☕",
-    "color": "#FF1493",
-    "rarity": "rare",
-    "tags": ["网红打卡", "咖啡", "粉色"]
-  },
-  {
-    "id": 162,
-    "name": "赛博朋克咖啡厅",
-    "category": "中山网红打卡点",
-    "region": "中山沙溪",
-    "description": "3D朋克风咖啡厅，科技感满满",
-    "emoji": "🕶️",
-    "color": "#00CED1",
-    "rarity": "rare",
-    "tags": ["网红打卡", "咖啡", "赛博朋克"]
-  },
-  {
-    "id": 163,
-    "name": "ART中山生活哲学文创园",
-    "category": "中山网红打卡点",
-    "region": "中山",
-    "description": "文创园区，咖啡手作多元一体",
-    "emoji": "🎨",
-    "color": "#9370DB",
-    "rarity": "rare",
-    "tags": ["网红打卡", "文创", "咖啡"]
-  },
-  {
-    "id": 164,
-    "name": "海港海鲜酒楼",
-    "category": "中山网红打卡点",
-    "region": "中山",
-    "description": "海鲜新鲜，招牌鱼虾蟹",
-    "emoji": "🦐",
-    "color": "#4682B4",
-    "rarity": "epic",
-    "tags": ["网红打卡", "海鲜", "酒楼"]
-  },
-  {
-    "id": 165,
-    "name": "阿炮美食城",
-    "category": "中山网红打卡点",
-    "region": "中山",
-    "description": "本地人常去，性价比超高",
-    "emoji": "🍜",
-    "color": "#CD853F",
-    "rarity": "rare",
-    "tags": ["网红打卡", "粤菜", "性价比"]
-  },
-  {
-    "id": 166,
-    "name": "来来Coffee",
-    "category": "中山网红打卡点",
-    "region": "中山石岐",
-    "description": "石岐步行街咖啡店，外景拍摄佳",
-    "emoji": "☕",
-    "color": "#F5DEB3",
-    "rarity": "rare",
-    "tags": ["网红打卡", "咖啡", "步行街"]
-  },
-  {
-    "id": 167,
-    "name": "Reload Coffee",
-    "category": "中山网红打卡点",
-    "region": "中山石岐",
-    "description": "中山北路文艺咖啡店，空间舒适",
-    "emoji": "☕",
-    "color": "#8FBC8F",
-    "rarity": "rare",
-    "tags": ["网红打卡", "咖啡", "文艺"]
-  },
-  {
-    "id": 168,
-    "name": "逸品时光咖啡店",
-    "category": "中山网红打卡点",
-    "region": "中山东区",
-    "description": "东区库充，人气咖啡店",
-    "emoji": "☕",
-    "color": "#FFA07A",
-    "rarity": "rare",
-    "tags": ["网红打卡", "咖啡", "东区"]
-  },
-  {
-    "id": 169,
-    "name": "熹屿咖啡馆",
-    "category": "中山网红打卡点",
-    "region": "中山东区",
-    "description": "东区神仙井，园林式咖啡厅",
-    "emoji": "🏞️",
-    "color": "#20B2AA",
-    "rarity": "rare",
-    "tags": ["网红打卡", "咖啡", "园林"]
-  },
-  {
-    "id": 170,
-    "name": "21G ESP咖啡店",
-    "category": "中山网红打卡点",
-    "region": "中山",
-    "description": "特调咖啡店，咖啡爱好者必去",
-    "emoji": "☕",
-    "color": "#6B8E23",
-    "rarity": "rare",
-    "tags": ["网红打卡", "咖啡", "特调"]
-  },
-  {
-    "id": 171,
-    "name": "Little咖啡店",
-    "category": "中山网红打卡点",
-    "region": "中山石岐",
-    "description": "网红大表哥打卡推荐，探店热门",
-    "emoji": "☕",
-    "color": "#FFB6C1",
-    "rarity": "rare",
-    "tags": ["网红打卡", "咖啡", "探店"]
-  },
-  {
-    "id": 172,
-    "name": "探茶",
-    "category": "中山网红打卡点",
-    "region": "中山",
-    "description": "新式茶饮店，颜值与口感并存",
-    "emoji": "🧋",
-    "color": "#FF69B4",
-    "rarity": "rare",
-    "tags": ["网红打卡", "茶饮", "奶茶"]
-  },
-  {
-    "id": 173,
-    "name": "茶木",
-    "category": "中山网红打卡点",
-    "region": "中山",
-    "description": "台式茶饮品牌，中山连锁店多",
-    "emoji": "🧋",
-    "color": "#90EE90",
-    "rarity": "common",
-    "tags": ["网红打卡", "茶饮", "奶茶"]
-  },
-  {
-    "id": 174,
-    "name": "鹿角巷",
-    "category": "中山网红打卡点",
-    "region": "中山",
-    "description": "网红奶茶鼻祖，黑糖珍珠经典",
-    "emoji": "🧋",
-    "color": "#8B4513",
-    "rarity": "rare",
-    "tags": ["网红打卡", "奶茶", "黑糖"]
-  },
-  {
-    "id": 175,
-    "name": "奈雪の茶",
-    "category": "中山网红打卡点",
-    "region": "中山",
-    "description": "高端茶饮软欧包中山分店",
-    "emoji": "🍵",
-    "color": "#FFD700",
-    "rarity": "rare",
-    "tags": ["网红打卡", "茶饮", "欧包"]
-  },
-  {
-    "id": 176,
-    "name": "喜茶",
-    "category": "中山网红打卡点",
-    "region": "中山",
-    "description": "灵感之茶，中山多店连锁",
-    "emoji": "🧋",
-    "color": "#FF4500",
-    "rarity": "rare",
-    "tags": ["网红打卡", "茶饮", "灵感"]
-  },
-  {
-    "id": 177,
-    "name": "星巴克臻选",
-    "category": "中山网红打卡点",
-    "region": "中山",
-    "description": "高端星巴克臻选店，氛围感强",
-    "emoji": "☕",
-    "color": "#2F4F4F",
-    "rarity": "rare",
-    "tags": ["网红打卡", "咖啡", "臻选"]
-  },
-  {
-    "id": 178,
-    "name": "太平洋咖啡",
-    "category": "中山网红打卡点",
-    "region": "中山",
-    "description": "老牌连锁咖啡，环境优雅",
-    "emoji": "☕",
-    "color": "#006400",
-    "rarity": "common",
-    "tags": ["网红打卡", "咖啡", "连锁"]
-  },
-  {
-    "id": 179,
-    "name": "瑞幸咖啡",
-    "category": "中山网红打卡点",
-    "region": "中山",
-    "description": "性价比之王，门店覆盖广",
-    "emoji": "☕",
-    "color": "#1E90FF",
-    "rarity": "common",
-    "tags": ["网红打卡", "咖啡", "性价比"]
-  },
-  {
-    "id": 180,
-    "name": "肯德基主题餐厅",
-    "category": "中山网红打卡点",
-    "region": "中山",
-    "description": "中山特色主题装修，拍照出片",
-    "emoji": "🍗",
-    "color": "#FF0000",
-    "rarity": "common",
-    "tags": ["网红打卡", "快餐", "主题"]
+    "foodType": "面食",
+    "foodImage": "UI_ItemIcon_108283.png"
   }
 ]

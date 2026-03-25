@@ -10,12 +10,40 @@
     <!-- 背景层 -->
     <div class="bg-layer">
         <div class="bg-blur"></div>
+        <div class="bg-food-deco">
+            <span class="deco-item">🍜</span>
+            <span class="deco-item">🍔</span>
+            <span class="deco-item">🍰</span>
+            <span class="deco-item">🍕</span>
+            <span class="deco-item">🥗</span>
+            <span class="deco-item">🍣</span>
+            <span class="deco-item">🍗</span>
+            <span class="deco-item">🥩</span>
+            <span class="deco-item">🍱</span>
+            <span class="deco-item">🌮</span>
+            <span class="deco-item">🍦</span>
+            <span class="deco-item">🥟</span>
+        </div>
     </div>
 
     <div class="app">
-        <h1 class="main-title">今天吃什么呢？</h1>
+        <h1 class="main-title" id="mainTitle">今天吃什么呢？</h1>
 
-        <main class="draw-area">
+        <!-- 滑动提示 -->
+        <div class="swipe-hint" id="swipeHint">
+            <span class="swipe-arrow left">◀</span>
+            <span class="swipe-text">左右滑动切换卡池</span>
+            <span class="swipe-arrow right">▶</span>
+        </div>
+
+        <!-- 页面指示器 -->
+        <div class="page-indicator" id="pageIndicator">
+            <span class="dot" data-type="food"></span>
+            <span class="dot" data-type="drink"></span>
+            <span class="dot" data-type="hot"></span>
+        </div>
+
+        <main class="draw-area" id="drawArea">
             <!-- 3D旋转层 -->
             <div class="rotation-layer" id="rotationLayer">
                 <div class="rotation-carousel" id="rotationCarousel"></div>
@@ -25,9 +53,15 @@
 
             <div class="food-card" id="foodCard">
                 <div class="card-content">
-                    <div class="food-emoji" id="foodEmoji">🍽️</div>
+                    <!-- 图片区：原神食物图 / 大emoji，右下角 emoji-badge 或 brand-logo 角标 -->
+                    <div class="food-image-wrap" id="foodImageWrap">
+                        <img class="food-image" id="foodImage" src="" alt="" />
+                        <div class="food-emoji-badge" id="foodEmoji">🍽️</div>
+                        <div class="food-brand-logo" id="foodBrandLogo"></div>
+                    </div>
                     <div class="food-name" id="foodName">准备好抽卡了吗？</div>
                     <div class="food-category" id="foodCategory">点击下方按钮开始</div>
+                    <div class="food-district" id="foodDistrict"></div>
                     <div class="food-description" id="foodDescription">今天吃什么是世纪难题？<br/>让抽卡来决定！</div>
                     <div class="food-rarity" id="foodRarity"></div>
                     <div class="food-tags" id="foodTags"></div>
@@ -42,12 +76,6 @@
             <span class="btn-star right">✦</span>
         </button>
 
-        <button class="draw-btn draw-btn-secondary" id="drawBtnHot">
-            <span class="btn-star">🔥</span>
-            <span class="btn-text">网红打卡</span>
-            <span class="btn-star right">🔥</span>
-        </button>
-
         <div class="nav-buttons">
             <a href="history.html" class="nav-btn">
                 <span class="nav-icon">📜</span>
@@ -60,6 +88,6 @@
         </div>
     </div>
 
-    <script src="js/draw.js"></script>
+    <script type="module" src="js/draw.js"></script>
 </body>
 </html>

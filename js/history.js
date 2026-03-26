@@ -1,5 +1,5 @@
 // 抽卡记录页面
-class HistoryPage {
+export class HistoryPage {
     constructor() {
         this.records = [];
         
@@ -36,40 +36,109 @@ class HistoryPage {
 
     render() {
         this.loading.style.display = 'none';
-        
+
         if (this.records.length === 0) {
             this.historyContainer.innerHTML = `
                 <div class="empty-state">
                     <span class="empty-icon">📜</span>
                     <span class="empty-text">暂无抽卡记录</span>
-                    <a href="draw.html" class="empty-btn">去抽卡</a>
+                    <a href="index.html" class="empty-btn">去抽卡</a>
                 </div>
             `;
             this.updateStats();
             return;
         }
-        
-        this.historyContainer.innerHTML = this.records.map((record, index) => 
-            this.createRecordHTML(record, index)
-        ).join('');
-        
+
+        // 按卡池分组
+        const groups = {
+            food:  { label: '美食',     icon: '🍽️', records: [] },
+            drink: { label: '饮品',     icon: '🧋', records: [] },
+            hot:   { label: '网红打卡点', icon: '📸', records: [] },
+        };
+        this.records.forEach(r => {
+            const type = r.type || 'food';
+            if (groups[type]) groups[type].records.push(r);
+            else groups.food.records.push(r);
+        });
+
+        let html = '';
+        let globalIndex = 0;
+        for (const [type, group] of Object.entries(groups)) {
+            if (group.records.length === 0) continue;
+
+            const stats = this.calcGroupStats(group.records);
+            html += `
+                <div class="group-header">
+                    <span class="group-icon">${group.icon}</span>
+                    <span class="group-label">${group.label}</span>
+                    <span class="group-total">${group.records.length} 次</span>
+                </div>
+                <div class="group-stats">
+                    <span class="gs-item epic">史诗 ${stats.epic}</span>
+                    <span class="gs-item rare">稀有 ${stats.rare}</span>
+                    <span class="gs-item common">普通 ${stats.common}</span>
+                </div>
+            `;
+            group.records.forEach(record => {
+                html += this.createRecordHTML(record, globalIndex++, type);
+            });
+        }
+
+        this.historyContainer.innerHTML = html;
         this.updateStats();
     }
 
-    createRecordHTML(record, index) {
+    calcGroupStats(records) {
+        return {
+            epic:   records.filter(r => r.rarity === 'epic').length,
+            rare:   records.filter(r => r.rarity === 'rare').length,
+            common: records.filter(r => r.rarity === 'common').length,
+        };
+    }
+
+    createRecordHTML(record, index, type) {
         const time = this.formatDateTime(record.time);
-        
+        const food = record.item || record.food || {};
+        const defaultEmoji = type === 'drink' ? '🧋' : type === 'hot' ? '📸' : '🍽️';
+
+        // 饮品额外显示商圈
+        const extraTag = (type === 'drink' && food.district)
+            ? `<span class="record-district">📍 ${food.district}</span>`
+            : '';
+
+        // category 优先显示，打卡点没有 category 则留空
+        const categoryTag = food.category
+            ? `<span class="record-category">${food.category}</span>`
+            : '';
+
+        // 美食卡：右侧显示食品图片
+        const foodImgHTML = (type === 'food' && food.foodImage)
+            ? `<img class="record-food-img" src="${food.foodImage}" alt="${food.name}"
+                    onerror="this.style.display='none'">`
+            : '';
+
+        // 打卡点：右侧显示地区 + 标语面板
+        const shopSideHTML = (type === 'hot')
+            ? `<div class="record-shop-side">
+                    ${food.region ? `<div class="record-shop-region">${food.region}</div>` : ''}
+                    ${food.description ? `<div class="record-shop-slogan">${food.description}</div>` : ''}
+               </div>`
+            : '';
+
         return `
-            <div class="record-card" style="animation-delay: ${index * 0.03}s">
-                <div class="record-emoji">${record.food.emoji || '🍽️'}</div>
+            <div class="record-card ${type === 'hot' ? 'record-card-hot' : ''}" style="animation-delay: ${index * 0.03}s">
+                <div class="record-emoji">${food.emoji || defaultEmoji}</div>
                 <div class="record-info">
-                    <div class="record-name">${record.food.name}</div>
+                    <div class="record-name">${food.name || '未知'}</div>
                     <div class="record-meta">
-                        <span class="record-category">${record.food.category}</span>
+                        ${categoryTag}
+                        ${extraTag}
                         <span class="record-rarity ${record.rarity}">${this.getRarityText(record.rarity)}</span>
                     </div>
                     <span class="record-time">${time}</span>
                 </div>
+                ${foodImgHTML}
+                ${shopSideHTML}
             </div>
         `;
     }
@@ -136,17 +205,23 @@ class HistoryPage {
         const exportData = {
             exportTime: new Date().toISOString(),
             totalRecords: this.records.length,
-            records: this.records.map(r => ({
-                time: r.time,
-                food: {
-                    name: r.food.name,
-                    emoji: r.food.emoji,
-                    category: r.food.category,
-                    region: r.food.region,
-                    description: r.food.description
-                },
-                rarity: r.rarity
-            }))
+            records: this.records.map(r => {
+                const food = r.item || r.food || {};
+                return {
+                    time: r.time,
+                    type: r.type,
+                    food: {
+                        name: food.name,
+                        emoji: food.emoji,
+                        category: food.category,
+                        region: food.region,
+                        description: food.description,
+                        brand: food.brand,
+                        district: food.district
+                    },
+                    rarity: r.rarity
+                };
+            })
         };
         
         // 转换为格式化后的JSON字符串

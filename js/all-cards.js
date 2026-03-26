@@ -1,3 +1,5 @@
+import AppConfig from '../config.js';
+
 // 全部美食卡片页面
 class AllCards {
     constructor() {
@@ -47,7 +49,13 @@ class AllCards {
     async loadFoods() {
         try {
             const response = await fetch('data/foods.json');
-            this.foods = await response.json();
+            const foods = await response.json();
+            this.foods = foods.map(item => ({
+                ...item,
+                foodImage: item.foodImage
+                    ? AppConfig.foodImageBaseUrl + item.foodImage
+                    : item.foodImage,
+            }));
         } catch (error) {
             console.error('加载美食数据失败:', error);
             this.foods = [];

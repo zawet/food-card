@@ -62,45 +62,6 @@ body {
     vertical-align: middle;
 }
 
-/* 标签栏 */
-.tab-bar {
-    display: flex;
-    gap: 8px;
-    margin-top: 15px;
-    overflow-x: auto;
-    padding-bottom: 5px;
-}
-
-.tab-btn {
-    flex: 1;
-    min-width: 60px;
-    padding: 10px 8px;
-    border: none;
-    border-radius: 20px;
-    background: rgba(255, 255, 255, 0.1);
-    color: rgba(255, 255, 255, 0.7);
-    font-size: 13px;
-    font-weight: 500;
-    cursor: pointer;
-    transition: all 0.3s ease;
-    white-space: nowrap;
-}
-
-.tab-btn.active {
-    background: var(--primary-color);
-    color: #fff;
-    box-shadow: 0 4px 15px rgba(255, 107, 53, 0.4);
-}
-
-.tab-btn[data-rarity="hot"].active {
-    background: linear-gradient(135deg, #c77dff, #9d4edd);
-    box-shadow: 0 4px 15px rgba(157, 78, 221, 0.4);
-}
-
-.tab-btn:hover:not(.active) {
-    background: rgba(255, 255, 255, 0.2);
-}
-
 /* 卡片区域 */
 .cards-container {
     padding: 15px;
@@ -330,6 +291,295 @@ body {
 
 /* 统计栏网红标签 */
 .stat-item.hot .stat-num {
+    background: linear-gradient(135deg, #c77dff, #9d4edd);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+/* 卡池内容区域 */
+.pool-content {
+    padding: 0 15px 15px;
+}
+
+/* 卡池组内的稀有度 Tab */
+.pool-tab-bar {
+    display: flex;
+    gap: 6px;
+    margin-bottom: 15px;
+    overflow-x: auto;
+    padding-bottom: 4px;
+}
+
+.pool-tab-btn {
+    flex: 1;
+    min-width: 50px;
+    padding: 6px 10px;
+    border: none;
+    border-radius: 16px;
+    background: rgba(255, 255, 255, 0.08);
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 12px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.25s ease;
+    white-space: nowrap;
+}
+
+.pool-tab-btn.active {
+    background: rgba(255, 255, 255, 0.25);
+    color: #fff;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* 店铺卡池的网红打卡 Tab 特殊样式 */
+.pool-group:has(#shopHotSection) .pool-tab-btn[data-rarity="hot"].active {
+    background: linear-gradient(135deg, #c77dff, #9d4edd);
+    color: #fff;
+}
+
+/* 卡池切换栏 */
+.pool-bar {
+    display: flex;
+    gap: 8px;
+    margin-top: 12px;
+    overflow-x: auto;
+    padding-bottom: 4px;
+}
+
+.pool-btn {
+    flex: 1;
+    min-width: 60px;
+    padding: 8px 10px;
+    border: none;
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.1);
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 13px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    white-space: nowrap;
+}
+
+.pool-btn.active {
+    background: linear-gradient(135deg, #ff6b35, #f7c531);
+    color: #fff;
+    box-shadow: 0 4px 15px rgba(255, 107, 53, 0.4);
+}
+
+.pool-btn[data-pool="food"].active  { background: linear-gradient(135deg, #ff8c42, #ffb347); }
+.pool-btn[data-pool="drink"].active { background: linear-gradient(135deg, #4ecdc4, #44a08d); }
+.pool-btn[data-pool="shop"].active  { background: linear-gradient(135deg, #c77dff, #9d4edd); }
+
+.pool-btn:hover:not(.active) {
+    background: rgba(255, 255, 255, 0.2);
+}
+
+/* 卡池分组 */
+.pool-group {
+    margin-bottom: 15px;
+    background: rgba(255, 255, 255, 0.03);
+    border-radius: 16px;
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+
+.pool-group-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px 15px;
+    cursor: pointer;
+    transition: background 0.2s ease;
+    user-select: none;
+}
+
+.pool-group-header:hover {
+    background: rgba(255, 255, 255, 0.05);
+}
+
+.pool-group-title {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 17px;
+    font-weight: 700;
+    color: #fff;
+    padding: 12px 15px;
+    background: rgba(255, 255, 255, 0.07);
+    border-radius: 14px;
+    margin-bottom: 12px;
+    letter-spacing: 0.5px;
+}
+
+.pool-total {
+    margin-left: 8px;
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.5);
+    font-weight: 400;
+    background: rgba(255,255,255,0.1);
+    padding: 2px 8px;
+    border-radius: 10px;
+}
+
+/* 收起/展开按钮 */
+.pool-toggle-btn {
+    width: 32px;
+    height: 32px;
+    border: none;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.1);
+    color: #fff;
+    font-size: 12px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+    margin-left: 10px;
+    flex-shrink: 0;
+}
+
+.pool-toggle-btn:hover {
+    background: rgba(255, 255, 255, 0.2);
+}
+
+.toggle-icon {
+    display: inline-block;
+    transition: transform 0.3s ease;
+}
+
+/* 收起状态 */
+.pool-group.collapsed .pool-content {
+    display: none;
+}
+
+.pool-group.collapsed .toggle-icon {
+    transform: rotate(-90deg);
+}
+
+.pool-group.collapsed {
+    background: rgba(255, 255, 255, 0.05);
+}
+
+/* 展开状态 */
+.pool-group.expanded .pool-content {
+    display: block;
+    animation: expandIn 0.3s ease;
+}
+
+.pool-group.expanded .toggle-icon {
+    transform: rotate(0deg);
+}
+
+@keyframes expandIn {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* 饮料卡片 - logo 居中展示 */
+.card-logo-wrap {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5px;
+    background: rgba(255,255,255,0.8);
+    border-radius: 50%;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+
+.card-brand-logo {
+    width: 44px;
+    height: 44px;
+    object-fit: contain;
+    border-radius: 50%;
+}
+
+.card-brand-tag {
+    position: absolute;
+    top: 4px;
+    right: 4px;
+    font-size: 7px;
+    padding: 2px 5px;
+    border-radius: 8px;
+    background: rgba(0, 0, 0, 0.12);
+    color: #555;
+    max-width: 44px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+/* 美食卡片 - 原神图片展示 */
+.card-img-wrap {
+    width: 54px;
+    height: 54px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5px;
+    flex-shrink: 0;
+}
+
+.card-food-img {
+    width: 54px;
+    height: 54px;
+    object-fit: contain;
+    image-rendering: auto;
+}
+
+/* 店铺卡片 - 城市徽章 */
+.card-city-badge {
+    font-size: 9px;
+    padding: 2px 6px;
+    border-radius: 8px;
+    background: rgba(0, 0, 0, 0.12);
+    color: #555;
+    margin-top: 2px;
+    max-width: 90%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+/* 网红打卡稀有度变体 */
+.food-card-mini.rarity-hot {
+    background: linear-gradient(145deg, #f3e5ff 0%, #d9a8ff 100%);
+    border: 2px solid #c77dff;
+    box-shadow: 0 0 15px rgba(157, 78, 221, 0.3);
+}
+
+.rarity-hot .rarity-tag {
+    background: linear-gradient(90deg, #c77dff, #9d4edd);
+    color: #fff;
+}
+
+/* 弹窗网红稀有度 */
+.modal-card.rarity-hot {
+    background: linear-gradient(145deg, #f3e5ff 0%, #d9a8ff 100%);
+    border: 4px solid #c77dff;
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.4), 0 0 40px rgba(157, 78, 221, 0.4);
+}
+
+.modal-card.rarity-hot .modal-rarity {
+    background: linear-gradient(90deg, #c77dff, #9d4edd);
+    color: #fff;
+}
+
+/* 底部统计栏颜色 */
+.stat-item.food .stat-num  { color: #ff8c42; }
+.stat-item.drink .stat-num { color: #4ecdc4; }
+.stat-item.shop .stat-num {
     background: linear-gradient(135deg, #c77dff, #9d4edd);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;

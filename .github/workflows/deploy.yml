@@ -1,0 +1,28 @@
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches:
+      - master  # 如果你的默认分支是 main，改成 main
+
+# 赋予写入权限
+permissions:
+  contents: write
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      # 拉取代码
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      # 直接将代码部署到 gh-pages 分支
+      - name: Deploy to gh-pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./  # 当前目录（整个项目根目录）
+          publish_branch: gh-pages
+          # 如果不想保留 gh-pages 分支的历史记录，可以加上下面这行
+          # force_orphan: true

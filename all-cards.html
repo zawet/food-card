@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>全部美食卡片</title>
+    <title>全部卡片</title>
     <link rel="stylesheet" href="css/all-cards.css">
 </head>
 <body>
@@ -32,48 +32,165 @@
     <div class="app">
         <header class="header">
             <a href="index.html" class="back-btn">←</a>
-            <h1>全部美食卡片</h1>
-            <div class="tab-bar">
-                <button class="tab-btn active" data-rarity="all">全部</button>
-                <button class="tab-btn" data-rarity="hot">网红打卡</button>
-                <button class="tab-btn" data-rarity="epic">史诗</button>
-                <button class="tab-btn" data-rarity="rare">稀有</button>
-                <button class="tab-btn" data-rarity="common">普通</button>
+            <h1>全部卡片</h1>
+            <!-- 卡池分组 Tab -->
+            <div class="pool-bar">
+                <button class="pool-btn active" data-pool="all">全部</button>
+                <button class="pool-btn" data-pool="food">🍽️ 美食</button>
+                <button class="pool-btn" data-pool="drink">🧋 饮料</button>
+                <button class="pool-btn" data-pool="shop">🏪 店铺</button>
             </div>
         </header>
 
         <main class="cards-container">
-            <div class="cards-section" id="hotSection">
-                <h2 class="section-title hot">
-                    <span class="rarity-icon">🔥</span> 网红打卡点
-                    <span class="count" id="hotCount">0</span>
-                </h2>
-                <div class="cards-grid" id="hotGrid"></div>
+
+            <!-- ===== 美食卡池 ===== -->
+            <div class="pool-group expanded" id="poolFood" data-pool="food">
+                <div class="pool-group-header">
+                    <div class="pool-group-title">
+                        <span>🍽️</span> 美食卡池
+                        <span class="pool-total" id="foodPoolTotal">0</span>
+                    </div>
+                    <button class="pool-toggle-btn" aria-label="收起/展开">
+                        <span class="toggle-icon">▼</span>
+                    </button>
+                </div>
+                <!-- 美食卡池内的稀有度 Tab -->
+                <div class="pool-content">
+                    <div class="pool-tab-bar" data-pool="food">
+                        <button class="pool-tab-btn active" data-rarity="all">全部</button>
+                        <button class="pool-tab-btn" data-rarity="epic">史诗</button>
+                        <button class="pool-tab-btn" data-rarity="rare">稀有</button>
+                        <button class="pool-tab-btn" data-rarity="common">普通</button>
+                    </div>
+
+                    <div class="cards-section" id="foodEpicSection">
+                        <h2 class="section-title epic">
+                            <span class="rarity-icon">👑</span> 史诗美食
+                            <span class="count" id="foodEpicCount">0</span>
+                        </h2>
+                        <div class="cards-grid" id="foodEpicGrid"></div>
+                    </div>
+
+                    <div class="cards-section" id="foodRareSection">
+                        <h2 class="section-title rare">
+                            <span class="rarity-icon">💎</span> 稀有美食
+                            <span class="count" id="foodRareCount">0</span>
+                        </h2>
+                        <div class="cards-grid" id="foodRareGrid"></div>
+                    </div>
+
+                    <div class="cards-section" id="foodCommonSection">
+                        <h2 class="section-title common">
+                            <span class="rarity-icon">🍽️</span> 普通美食
+                            <span class="count" id="foodCommonCount">0</span>
+                        </h2>
+                        <div class="cards-grid" id="foodCommonGrid"></div>
+                    </div>
+                </div>
             </div>
 
-            <div class="cards-section" id="epicSection">
-                <h2 class="section-title epic">
-                    <span class="rarity-icon">👑</span> 史诗美食
-                    <span class="count" id="epicCount">0</span>
-                </h2>
-                <div class="cards-grid" id="epicGrid"></div>
+            <!-- ===== 饮料卡池 ===== -->
+            <div class="pool-group expanded" id="poolDrink" data-pool="drink">
+                <div class="pool-group-header">
+                    <div class="pool-group-title">
+                        <span>🧋</span> 饮料卡池
+                        <span class="pool-total" id="drinkPoolTotal">0</span>
+                    </div>
+                    <button class="pool-toggle-btn" aria-label="收起/展开">
+                        <span class="toggle-icon">▼</span>
+                    </button>
+                </div>
+                <!-- 饮料卡池内的稀有度 Tab -->
+                <div class="pool-content">
+                    <div class="pool-tab-bar" data-pool="drink">
+                        <button class="pool-tab-btn active" data-rarity="all">全部</button>
+                        <button class="pool-tab-btn" data-rarity="epic">史诗</button>
+                        <button class="pool-tab-btn" data-rarity="rare">稀有</button>
+                        <button class="pool-tab-btn" data-rarity="common">普通</button>
+                    </div>
+
+                    <div class="cards-section" id="drinkEpicSection">
+                        <h2 class="section-title epic">
+                            <span class="rarity-icon">👑</span> 史诗饮品
+                            <span class="count" id="drinkEpicCount">0</span>
+                        </h2>
+                        <div class="cards-grid" id="drinkEpicGrid"></div>
+                    </div>
+
+                    <div class="cards-section" id="drinkRareSection">
+                        <h2 class="section-title rare">
+                            <span class="rarity-icon">💎</span> 稀有饮品
+                            <span class="count" id="drinkRareCount">0</span>
+                        </h2>
+                        <div class="cards-grid" id="drinkRareGrid"></div>
+                    </div>
+
+                    <div class="cards-section" id="drinkCommonSection">
+                        <h2 class="section-title common">
+                            <span class="rarity-icon">🧋</span> 普通饮品
+                            <span class="count" id="drinkCommonCount">0</span>
+                        </h2>
+                        <div class="cards-grid" id="drinkCommonGrid"></div>
+                    </div>
+                </div>
             </div>
 
-            <div class="cards-section" id="rareSection">
-                <h2 class="section-title rare">
-                    <span class="rarity-icon">💎</span> 稀有美食
-                    <span class="count" id="rareCount">0</span>
-                </h2>
-                <div class="cards-grid" id="rareGrid"></div>
+            <!-- ===== 店铺卡池 ===== -->
+            <div class="pool-group expanded" id="poolShop" data-pool="shop">
+                <div class="pool-group-header">
+                    <div class="pool-group-title">
+                        <span>🏪</span> 店铺卡池
+                        <span class="pool-total" id="shopPoolTotal">0</span>
+                    </div>
+                    <button class="pool-toggle-btn" aria-label="收起/展开">
+                        <span class="toggle-icon">▼</span>
+                    </button>
+                </div>
+                <!-- 店铺卡池内的稀有度 Tab（含网红打卡） -->
+                <div class="pool-content">
+                    <div class="pool-tab-bar" data-pool="shop">
+                        <button class="pool-tab-btn active" data-rarity="all">全部</button>
+                        <button class="pool-tab-btn" data-rarity="hot">🔥 网红打卡</button>
+                        <button class="pool-tab-btn" data-rarity="epic">史诗</button>
+                        <button class="pool-tab-btn" data-rarity="rare">稀有</button>
+                        <button class="pool-tab-btn" data-rarity="common">普通</button>
+                    </div>
+
+                    <div class="cards-section" id="shopHotSection">
+                        <h2 class="section-title hot">
+                            <span class="rarity-icon">🔥</span> 网红打卡点
+                            <span class="count" id="shopHotCount">0</span>
+                        </h2>
+                        <div class="cards-grid" id="shopHotGrid"></div>
+                    </div>
+
+                    <div class="cards-section" id="shopEpicSection">
+                        <h2 class="section-title epic">
+                            <span class="rarity-icon">👑</span> 史诗店铺
+                            <span class="count" id="shopEpicCount">0</span>
+                        </h2>
+                        <div class="cards-grid" id="shopEpicGrid"></div>
+                    </div>
+
+                    <div class="cards-section" id="shopRareSection">
+                        <h2 class="section-title rare">
+                            <span class="rarity-icon">💎</span> 稀有店铺
+                            <span class="count" id="shopRareCount">0</span>
+                        </h2>
+                        <div class="cards-grid" id="shopRareGrid"></div>
+                    </div>
+
+                    <div class="cards-section" id="shopCommonSection">
+                        <h2 class="section-title common">
+                            <span class="rarity-icon">🏪</span> 普通店铺
+                            <span class="count" id="shopCommonCount">0</span>
+                        </h2>
+                        <div class="cards-grid" id="shopCommonGrid"></div>
+                    </div>
+                </div>
             </div>
 
-            <div class="cards-section" id="commonSection">
-                <h2 class="section-title common">
-                    <span class="rarity-icon">🍽️</span> 普通美食
-                    <span class="count" id="commonCount">0</span>
-                </h2>
-                <div class="cards-grid" id="commonGrid"></div>
-            </div>
         </main>
 
         <div class="stats-bar">
@@ -81,21 +198,17 @@
                 <span class="stat-num" id="totalCount">0</span>
                 <span class="stat-label">总计</span>
             </div>
-            <div class="stat-item hot">
-                <span class="stat-num" id="hotStat">0</span>
-                <span class="stat-label">网红</span>
+            <div class="stat-item food">
+                <span class="stat-num" id="foodStat">0</span>
+                <span class="stat-label">美食</span>
             </div>
-            <div class="stat-item epic">
-                <span class="stat-num" id="epicStat">0</span>
-                <span class="stat-label">史诗</span>
+            <div class="stat-item drink">
+                <span class="stat-num" id="drinkStat">0</span>
+                <span class="stat-label">饮料</span>
             </div>
-            <div class="stat-item rare">
-                <span class="stat-num" id="rareStat">0</span>
-                <span class="stat-label">稀有</span>
-            </div>
-            <div class="stat-item common">
-                <span class="stat-num" id="commonStat">0</span>
-                <span class="stat-label">普通</span>
+            <div class="stat-item shop">
+                <span class="stat-num" id="shopStat">0</span>
+                <span class="stat-label">店铺</span>
             </div>
         </div>
     </div>
